@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soap:Body>
+    <AirDemandTicketResponse xmlns="http://zapways.com/air/ota/">
+      <AirDemandTicketResult xmlns="http://www.opentravel.org/OTA/2003/05" Version="1.04">
+        <Success/>
+        <TicketItemInfo TicketNumber="5592300119647">
+          <PassengerName PassengerTypeCode="ADT">
+            <GivenName>TESTA</GivenName>
+            <Surname>TEST</Surname>
+            <NameTitle>MR</NameTitle>
+          </PassengerName>
+        </TicketItemInfo>
+        <TicketItemInfo TicketNumber="5592300119648">
+          <PassengerName PassengerTypeCode="ADT">
+            <GivenName>TESTB</GivenName>
+            <Surname>TEST</Surname>
+            <NameTitle>MS</NameTitle>
+          </PassengerName>
+        </TicketItemInfo>
+      </AirDemandTicketResult>
+    </AirDemandTicketResponse>
+  </soap:Body>
+</soap:Envelope>

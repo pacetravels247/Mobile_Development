@@ -1,0 +1,52 @@
+<script type="text/javascript">
+var owl;
+$(document).ready(function(){
+  owl = $(".owl-carousel").owlCarousel({
+    autoplay: true,
+    autoplaySpeed: 300,
+    loop: true,
+    navSpeed: 300,
+    items: 1,
+    margin: 2
+  });
+  owl.on('changed.owl.carousel', function(e) {
+    console.log("test");
+  });
+});
+</script>
+
+<style type="text/css">
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.owl-carousel .item {
+  height: 120px;
+  background: #4DC7A0;
+  padding: 1rem;
+  list-style: none;
+  margin: 10px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  line-height: 120px;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.6/assets/owl.carousel.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.6/assets/owl.theme.default.min.css">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.6/owl.carousel.min.js"></script>
+<!-- Set up your HTML -->
+
+<div class="owl-carousel">
+  <div class="item"> slide1 </div>
+  <div class="item"> slide2 </div>
+  <div class="item"> slide3 </div>
+  <div class="item"> slide4 </div>
+  <div class="item"> slide5 </div>
+  <div class="item"> slide6 </div>
+  <div class="item"> slide7 </div>
+  <div class="item"> slide8 </div>
+  <div class="item"> slide9 </div>
+</div>

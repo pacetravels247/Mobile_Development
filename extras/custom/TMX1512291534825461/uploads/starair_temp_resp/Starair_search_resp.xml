@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soap:Body>
+    <AirLowFareSearchResponse xmlns="http://zapways.com/air/ota/">
+      <AirLowFareSearchResult xmlns="http://www.opentravel.org/OTA/2003/05" Version="1.04">
+        <Success/>
+        <PricedItineraries>
+          <PricedItinerary>
+            <AirItinerary>
+              <OriginDestinationOptions>
+                <OriginDestinationOption>
+                  <FlightSegment DepartureDateTime="2019-09-11T07:35:00" ArrivalDateTime="2019-09-11T08:40:00" StopQuantity="0" RPH="0-0-0-0" FlightNumber="105" Status="ONTIME">
+                    <DepartureAirport LocationCode="BLR"/>
+                    <ArrivalAirport LocationCode="IXG"/>
+                    <OperatingAirline Code="OG"/>
+                    <Equipment AirEquipType="E145"/>
+                    <MarketingAirline Code="OG"/>
+                    <BookingClassAvails CabinType="Y">
+                      <BookingClassAvail ResBookDesigCode="B" ResBookDesigStatusCode="1" RPH="Y"/>
+                    </BookingClassAvails>
+                  </FlightSegment>
+                </OriginDestinationOption>
+              </OriginDestinationOptions>
+            </AirItinerary>
+            <AirItineraryPricingInfo>
+              <PTC_FareBreakdowns>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="ADT" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="0-0-0-0">BSRAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="2243"/>
+                    <Taxes Amount="432">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="115"/>
+                      <Tax TaxCode="IN" CurrencyCode="INR" Amount="153"/>
+                      <Tax TaxCode="UD" CurrencyCode="INR" Amount="164"/>
+                    </Taxes>
+                    <Fees Amount="50">
+                      <Fee FeeCode="TR" CurrencyCode="INR" Amount="50"/>
+                    </Fees>
+                    <TotalFare CurrencyCode="INR" Amount="2725"/>
+                    <FareConstruction OriginCityCode="BLR" DestinationCityCode="IXG"/>
+                    <FareBaggageAllowance UnitOfMeasureQuantity="15" UnitOfMeasure="KGS" FlightSegmentRPH="0-0-0-0"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="B"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="BSRAGT1">
+                      <Fare BaseAmount="2243" TaxAmount="432" TotalFare="2725"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="CHD" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="0-0-0-0">BSRAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="2243"/>
+                    <Taxes Amount="432">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="115"/>
+                      <Tax TaxCode="IN" CurrencyCode="INR" Amount="153"/>
+                      <Tax TaxCode="UD" CurrencyCode="INR" Amount="164"/>
+                    </Taxes>
+                    <Fees Amount="50">
+                      <Fee FeeCode="TR" CurrencyCode="INR" Amount="50"/>
+                    </Fees>
+                    <TotalFare CurrencyCode="INR" Amount="2725"/>
+                    <FareConstruction OriginCityCode="BLR" DestinationCityCode="IXG"/>
+                    <FareBaggageAllowance UnitOfMeasureQuantity="15" UnitOfMeasure="KGS" FlightSegmentRPH="0-0-0-0"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="B"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="BSRAGT1">
+                      <Fare BaseAmount="2243" TaxAmount="432" TotalFare="2725"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="INF" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="0-0-0-0">INFANTSRAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="1232"/>
+                    <Taxes Amount="62">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="62"/>
+                    </Taxes>
+                    <TotalFare CurrencyCode="INR" Amount="1294"/>
+                    <FareConstruction OriginCityCode="BLR" DestinationCityCode="IXG"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="B"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="INFANTSRAGT1">
+                      <Fare BaseAmount="1232" TaxAmount="62" TotalFare="1294"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="ADT" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="0-0-0-0">BSCAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="2637"/>
+                    <Taxes Amount="451">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="134"/>
+                      <Tax TaxCode="IN" CurrencyCode="INR" Amount="153"/>
+                      <Tax TaxCode="UD" CurrencyCode="INR" Amount="164"/>
+                    </Taxes>
+                    <Fees Amount="50">
+                      <Fee FeeCode="TR" CurrencyCode="INR" Amount="50"/>
+                    </Fees>
+                    <TotalFare CurrencyCode="INR" Amount="3138"/>
+                    <FareConstruction OriginCityCode="BLR" DestinationCityCode="IXG"/>
+                    <FareBaggageAllowance UnitOfMeasureQuantity="15" UnitOfMeasure="KGS" FlightSegmentRPH="0-0-0-0"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="B"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="BSCAGT1">
+                      <Fare BaseAmount="2637" TaxAmount="451" TotalFare="3138"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="CHD" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="0-0-0-0">BSCAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="2637"/>
+                    <Taxes Amount="451">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="134"/>
+                      <Tax TaxCode="IN" CurrencyCode="INR" Amount="153"/>
+                      <Tax TaxCode="UD" CurrencyCode="INR" Amount="164"/>
+                    </Taxes>
+                    <Fees Amount="50">
+                      <Fee FeeCode="TR" CurrencyCode="INR" Amount="50"/>
+                    </Fees>
+                    <TotalFare CurrencyCode="INR" Amount="3138"/>
+                    <FareConstruction OriginCityCode="BLR" DestinationCityCode="IXG"/>
+                    <FareBaggageAllowance UnitOfMeasureQuantity="15" UnitOfMeasure="KGS" FlightSegmentRPH="0-0-0-0"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="B"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="BSCAGT1">
+                      <Fare BaseAmount="2637" TaxAmount="451" TotalFare="3138"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="INF" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="0-0-0-0">INFSCAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="1232"/>
+                    <Taxes Amount="62">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="62"/>
+                    </Taxes>
+                    <TotalFare CurrencyCode="INR" Amount="1294"/>
+                    <FareConstruction OriginCityCode="BLR" DestinationCityCode="IXG"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="B"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="INFSCAGT1">
+                      <Fare BaseAmount="1232" TaxAmount="62" TotalFare="1294"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="ADT" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="0-0-0-0">BSFAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="2736"/>
+                    <Taxes Amount="456">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="139"/>
+                      <Tax TaxCode="IN" CurrencyCode="INR" Amount="153"/>
+                      <Tax TaxCode="UD" CurrencyCode="INR" Amount="164"/>
+                    </Taxes>
+                    <Fees Amount="50">
+                      <Fee FeeCode="TR" CurrencyCode="INR" Amount="50"/>
+                    </Fees>
+                    <TotalFare CurrencyCode="INR" Amount="3242"/>
+                    <FareConstruction OriginCityCode="BLR" DestinationCityCode="IXG"/>
+                    <FareBaggageAllowance UnitOfMeasureQuantity="15" UnitOfMeasure="KGS" FlightSegmentRPH="0-0-0-0"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="B"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty ExchangeCount="&lt;=0" HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="0"/>
+                          <Penalty ExchangeCount="&gt;=1" HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="BSFAGT1">
+                      <Fare BaseAmount="2736" TaxAmount="456" TotalFare="3242"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="CHD" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="0-0-0-0">BSFAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="2736"/>
+                    <Taxes Amount="456">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="139"/>
+                      <Tax TaxCode="IN" CurrencyCode="INR" Amount="153"/>
+                      <Tax TaxCode="UD" CurrencyCode="INR" Amount="164"/>
+                    </Taxes>
+                    <Fees Amount="50">
+                      <Fee FeeCode="TR" CurrencyCode="INR" Amount="50"/>
+                    </Fees>
+                    <TotalFare CurrencyCode="INR" Amount="3242"/>
+                    <FareConstruction OriginCityCode="BLR" DestinationCityCode="IXG"/>
+                    <FareBaggageAllowance UnitOfMeasureQuantity="15" UnitOfMeasure="KGS" FlightSegmentRPH="0-0-0-0"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="B"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty ExchangeCount="&lt;=0" HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="0"/>
+                          <Penalty ExchangeCount="&gt;=1" HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="BSFAGT1">
+                      <Fare BaseAmount="2736" TaxAmount="456" TotalFare="3242"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="INF" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="0-0-0-0">INFSFAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="1232"/>
+                    <Taxes Amount="62">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="62"/>
+                    </Taxes>
+                    <TotalFare CurrencyCode="INR" Amount="1294"/>
+                    <FareConstruction OriginCityCode="BLR" DestinationCityCode="IXG"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="B"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty ExchangeCount="&lt;=0" HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="0"/>
+                          <Penalty ExchangeCount="&gt;=1" HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="INFSFAGT1">
+                      <Fare BaseAmount="1232" TaxAmount="62" TotalFare="1294"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+              </PTC_FareBreakdowns>
+            </AirItineraryPricingInfo>
+          </PricedItinerary>
+        </PricedItineraries>
+        <PricedItineraries>
+          <PricedItinerary>
+            <AirItinerary>
+              <OriginDestinationOptions>
+                <OriginDestinationOption>
+                  <FlightSegment DepartureDateTime="2019-09-11T07:35:00" ArrivalDateTime="2019-09-11T08:40:00" StopQuantity="0" RPH="0-0-0-0" FlightNumber="105" Status="ONTIME">
+                    <DepartureAirport LocationCode="BLR"/>
+                    <ArrivalAirport LocationCode="IXG"/>
+                    <OperatingAirline Code="OG"/>
+                    <Equipment AirEquipType="E145"/>
+                    <MarketingAirline Code="OG"/>
+                    <BookingClassAvails CabinType="Y">
+                      <BookingClassAvail ResBookDesigCode="B" ResBookDesigStatusCode="1" RPH="Y"/>
+                    </BookingClassAvails>
+                  </FlightSegment>
+                </OriginDestinationOption>
+              </OriginDestinationOptions>
+            </AirItinerary>
+            <AirItineraryPricingInfo>
+              <PTC_FareBreakdowns>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="ADT" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="0-0-0-0">BSRAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="2243"/>
+                    <Taxes Amount="432">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="115"/>
+                      <Tax TaxCode="IN" CurrencyCode="INR" Amount="153"/>
+                      <Tax TaxCode="UD" CurrencyCode="INR" Amount="164"/>
+                    </Taxes>
+                    <Fees Amount="50">
+                      <Fee FeeCode="TR" CurrencyCode="INR" Amount="50"/>
+                    </Fees>
+                    <TotalFare CurrencyCode="INR" Amount="2725"/>
+                    <FareConstruction OriginCityCode="BLR" DestinationCityCode="IXG"/>
+                    <FareBaggageAllowance UnitOfMeasureQuantity="15" UnitOfMeasure="KGS" FlightSegmentRPH="0-0-0-0"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="B"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="BSRAGT1">
+                      <Fare BaseAmount="2243" TaxAmount="432" TotalFare="2725"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="CHD" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="0-0-0-0">BSRAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="2243"/>
+                    <Taxes Amount="432">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="115"/>
+                      <Tax TaxCode="IN" CurrencyCode="INR" Amount="153"/>
+                      <Tax TaxCode="UD" CurrencyCode="INR" Amount="164"/>
+                    </Taxes>
+                    <Fees Amount="50">
+                      <Fee FeeCode="TR" CurrencyCode="INR" Amount="50"/>
+                    </Fees>
+                    <TotalFare CurrencyCode="INR" Amount="2725"/>
+                    <FareConstruction OriginCityCode="BLR" DestinationCityCode="IXG"/>
+                    <FareBaggageAllowance UnitOfMeasureQuantity="15" UnitOfMeasure="KGS" FlightSegmentRPH="0-0-0-0"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="B"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="BSRAGT1">
+                      <Fare BaseAmount="2243" TaxAmount="432" TotalFare="2725"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="INF" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="0-0-0-0">INFANTSRAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="1232"/>
+                    <Taxes Amount="62">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="62"/>
+                    </Taxes>
+                    <TotalFare CurrencyCode="INR" Amount="1294"/>
+                    <FareConstruction OriginCityCode="BLR" DestinationCityCode="IXG"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="B"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="INFANTSRAGT1">
+                      <Fare BaseAmount="1232" TaxAmount="62" TotalFare="1294"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="ADT" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="0-0-0-0">BSCAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="2637"/>
+                    <Taxes Amount="451">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="134"/>
+                      <Tax TaxCode="IN" CurrencyCode="INR" Amount="153"/>
+                      <Tax TaxCode="UD" CurrencyCode="INR" Amount="164"/>
+                    </Taxes>
+                    <Fees Amount="50">
+                      <Fee FeeCode="TR" CurrencyCode="INR" Amount="50"/>
+                    </Fees>
+                    <TotalFare CurrencyCode="INR" Amount="3138"/>
+                    <FareConstruction OriginCityCode="BLR" DestinationCityCode="IXG"/>
+                    <FareBaggageAllowance UnitOfMeasureQuantity="15" UnitOfMeasure="KGS" FlightSegmentRPH="0-0-0-0"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="B"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="BSCAGT1">
+                      <Fare BaseAmount="2637" TaxAmount="451" TotalFare="3138"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="CHD" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="0-0-0-0">BSCAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="2637"/>
+                    <Taxes Amount="451">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="134"/>
+                      <Tax TaxCode="IN" CurrencyCode="INR" Amount="153"/>
+                      <Tax TaxCode="UD" CurrencyCode="INR" Amount="164"/>
+                    </Taxes>
+                    <Fees Amount="50">
+                      <Fee FeeCode="TR" CurrencyCode="INR" Amount="50"/>
+                    </Fees>
+                    <TotalFare CurrencyCode="INR" Amount="3138"/>
+                    <FareConstruction OriginCityCode="BLR" DestinationCityCode="IXG"/>
+                    <FareBaggageAllowance UnitOfMeasureQuantity="15" UnitOfMeasure="KGS" FlightSegmentRPH="0-0-0-0"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="B"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="BSCAGT1">
+                      <Fare BaseAmount="2637" TaxAmount="451" TotalFare="3138"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="INF" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="0-0-0-0">INFSCAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="1232"/>
+                    <Taxes Amount="62">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="62"/>
+                    </Taxes>
+                    <TotalFare CurrencyCode="INR" Amount="1294"/>
+                    <FareConstruction OriginCityCode="BLR" DestinationCityCode="IXG"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="B"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="INFSCAGT1">
+                      <Fare BaseAmount="1232" TaxAmount="62" TotalFare="1294"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="ADT" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="0-0-0-0">BSFAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="2736"/>
+                    <Taxes Amount="456">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="139"/>
+                      <Tax TaxCode="IN" CurrencyCode="INR" Amount="153"/>
+                      <Tax TaxCode="UD" CurrencyCode="INR" Amount="164"/>
+                    </Taxes>
+                    <Fees Amount="50">
+                      <Fee FeeCode="TR" CurrencyCode="INR" Amount="50"/>
+                    </Fees>
+                    <TotalFare CurrencyCode="INR" Amount="3242"/>
+                    <FareConstruction OriginCityCode="BLR" DestinationCityCode="IXG"/>
+                    <FareBaggageAllowance UnitOfMeasureQuantity="15" UnitOfMeasure="KGS" FlightSegmentRPH="0-0-0-0"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="B"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty ExchangeCount="&lt;=0" HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="0"/>
+                          <Penalty ExchangeCount="&gt;=1" HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="BSFAGT1">
+                      <Fare BaseAmount="2736" TaxAmount="456" TotalFare="3242"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="CHD" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="0-0-0-0">BSFAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="2736"/>
+                    <Taxes Amount="456">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="139"/>
+                      <Tax TaxCode="IN" CurrencyCode="INR" Amount="153"/>
+                      <Tax TaxCode="UD" CurrencyCode="INR" Amount="164"/>
+                    </Taxes>
+                    <Fees Amount="50">
+                      <Fee FeeCode="TR" CurrencyCode="INR" Amount="50"/>
+                    </Fees>
+                    <TotalFare CurrencyCode="INR" Amount="3242"/>
+                    <FareConstruction OriginCityCode="BLR" DestinationCityCode="IXG"/>
+                    <FareBaggageAllowance UnitOfMeasureQuantity="15" UnitOfMeasure="KGS" FlightSegmentRPH="0-0-0-0"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="B"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty ExchangeCount="&lt;=0" HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="0"/>
+                          <Penalty ExchangeCount="&gt;=1" HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="BSFAGT1">
+                      <Fare BaseAmount="2736" TaxAmount="456" TotalFare="3242"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="INF" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="0-0-0-0">INFSFAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="1232"/>
+                    <Taxes Amount="62">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="62"/>
+                    </Taxes>
+                    <TotalFare CurrencyCode="INR" Amount="1294"/>
+                    <FareConstruction OriginCityCode="BLR" DestinationCityCode="IXG"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="B"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty ExchangeCount="&lt;=0" HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="0"/>
+                          <Penalty ExchangeCount="&gt;=1" HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="INFSFAGT1">
+                      <Fare BaseAmount="1232" TaxAmount="62" TotalFare="1294"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+              </PTC_FareBreakdowns>
+            </AirItineraryPricingInfo>
+          </PricedItinerary>
+        </PricedItineraries>
+      </AirLowFareSearchResult>
+    </AirLowFareSearchResponse>
+  </soap:Body>
+</soap:Envelope>

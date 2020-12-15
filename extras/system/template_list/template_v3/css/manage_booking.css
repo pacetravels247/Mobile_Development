@@ -1,0 +1,1292 @@
+body{
+  color: #666666 !important;
+  font-family: Verdana, Geneva, sans-serif !important;
+}
+.bg-cancel{
+  background-color: #e2e2e2 !important;
+}
+
+/*css for itinay strt */
+
+.modify_itry {
+  background-color: #4a4a4a;
+  padding: 0;
+  font-size: 14px;
+  margin: 5px 0 10px 0;
+  color: #FFF;
+  box-shadow: 1px 4px 8px #969696;
+  float: left;
+  width: 100%;
+}
+.pad20{
+	padding: 20px;
+}
+.pad15{
+	padding: 15px;
+}
+
+.btnfly_itry {
+  border: 2px solid #F9C806 !important;
+  color: #F9C806;
+  outline: none;
+  font-size: 18px;
+  padding: 5px 10px;
+  width: 100%;
+  text-align: center;
+  background-color: #303030 !important;
+  margin-top: 5px;
+}
+.date_content{
+	color: #959595;
+	font-size: 14px;
+	font-weight: normal;
+}
+.pad10{
+	padding: 10px;
+}
+.bg_top_itry {
+  box-shadow: 2px 2px 1px #d9d9d9;
+  -o-box-shadow: 2px 2px 1px #d9d9d9;
+  -ms-box-shadow: 2px 2px 1px #d9d9d9;
+  -moz-box-shadow: 2px 2px 1px #d9d9d9;
+  -webkit-box-shadow: 2px 2px 1px #d9d9d9;
+  border: 1px solid #CCC;
+  border-radius: 4px;
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  margin: 0 10px 15px 0 !important;
+  width: 100%;
+  float: left;
+  background-color: #FFF;
+}
+.bg_top_itry_nobord {
+  box-shadow: 2px 2px 1px #d9d9d9;
+  -o-box-shadow: 2px 2px 1px #d9d9d9;
+  -ms-box-shadow: 2px 2px 1px #d9d9d9;
+  -moz-box-shadow: 2px 2px 1px #d9d9d9;
+  -webkit-box-shadow: 2px 2px 1px #d9d9d9;
+  border: 1px solid #CCC;
+
+  margin: 0 10px 15px 0 !important;
+  width: 100%;
+  float: left;
+  background-color: #FFF;
+}
+.bg_top_cancel {
+	margin: 0 20px 0 0 !important; 
+  box-shadow: 2px 2px 1px #d9d9d9;
+  -o-box-shadow: 2px 2px 1px #d9d9d9;
+  -ms-box-shadow: 2px 2px 1px #d9d9d9;
+  -moz-box-shadow: 2px 2px 1px #d9d9d9;
+  -webkit-box-shadow: 2px 2px 1px #d9d9d9;
+  border: 1px solid #CCC;
+  border-radius: 4px;
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  float: left;
+  background-color: #FFF;
+}
+.inner_nav {
+  border-bottom: 3px solid #4b4b4b;
+  margin:30px 0 25px 0;
+}
+.circle_one {
+  width: 35px;
+  height: 35px;
+  background-color: #FFF;
+  border: 3px solid #4b4b4b;
+  text-align: center;
+  color: #4b4b4b;
+  font-weight: bold;
+  padding-top: 4px;
+  border-radius: 20px;
+  -o-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+}
+.circle_two {
+  width: 35px;
+  height: 35px;
+  background-color: #FFF;
+  border: 3px solid #4b4b4b;
+  text-align: center;
+  color: #4b4b4b;
+  font-weight: bold;
+  padding-top: 4px;
+  border-radius: 20px;
+  -o-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+}
+.circle_content {
+  position: absolute;
+  top: -20px;
+  left: 45px;
+  line-height: 21px;
+}
+.circle_content1 {
+  position: absolute;
+  top: -40px;
+  left: 126px;
+  line-height: 21px;
+}
+.circle_content2 {
+  position: absolute;
+  top: -35px;
+  left: 11px;
+  line-height: 21px;
+}
+.circle_content_cancel {
+  left: -66px;
+  line-height: 21px;
+  position: absolute;
+  top: -35px;
+}
+.t_right{
+	text-align: right;
+}
+.stepOne {
+  position: relative;
+}
+.details {
+  margin: -23px 0 0 0;
+  font-size: 16px;
+  color: #666666;
+  font-weight: 700;
+  width: 100%;
+  float: left;
+}
+.details_fly_h3 {
+  margin: 0 0 10px 0;
+  font-size: 16px;
+  color: #666666;
+  font-weight: 700;
+  width: 100%;
+  float: left;
+}
+.color_black{
+	color: #000;
+}
+.b-btm_fly {
+  border-bottom: 1px solid #CCC;
+  clear: both;
+  float: left;
+  margin: 0 0 5px 0;
+  width: 100%;
+  padding-bottom: 5px;
+}
+.fare_sumarry{
+	color: #666666;
+	border-bottom: 2px solid #CCC;
+	text-align: center;
+	padding: 10px 0;
+	margin: 0;
+	border-radius: 4px 4px 0 0;
+	-o-border-radius: 4px 4px 0 0;
+	-ms-border-radius: 4px 4px 0 0;
+	-moz-border-radius: 4px 4px 0 0;
+	-webkit-border-radius: 4px 4px 0 0;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f4f4f4+0,f8f8f8+50,fbfbfb+100 */
+	background: #f4f4f4; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f4f4f4 0%, #f8f8f8 50%, #fbfbfb 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f4f4f4), color-stop(50%,#f8f8f8), color-stop(100%,#fbfbfb)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f4f4f4 0%,#f8f8f8 50%,#fbfbfb 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f4f4f4 0%,#f8f8f8 50%,#fbfbfb 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f4f4f4 0%,#f8f8f8 50%,#fbfbfb 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f4f4f4 0%,#f8f8f8 50%,#fbfbfb 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', endColorstr='#fbfbfb',GradientType=0 ); /* IE6-9 */
+}
+.depart_fly{
+	background-color: #f3f3f3;
+	font-weight: bold;
+	padding: 10px;
+	border-right: 1px solid #CCC;
+	border-radius: 4px 0 0 4px;
+	min-height: 85px;
+}
+.rit_depart_bus{
+	background-color: #FFF;
+	font-size: 13px;
+ padding: 5px 40px 5px 40px;
+ border-right: 1px solid #CCC;
+ border-radius: 4px 0 0 4px;
+ min-height: 85px;
+}
+.rit_depart_fly_next{
+  padding: 10px 10px 10px 0;
+}
+.checkbox-style-label:before {
+  content: url("../images/fly_inactive.png");
+  display: inline-block;
+  height: 15px;
+  padding-right: 0.5rem;
+  width: 15px;
+}
+input.checkbox-style[type="checkbox"]:checked + .checkbox-style-label:before {
+  content: url("../images/fly_active.png");
+}
+.top30{
+	margin-top: 30px;
+}
+.top45{
+	margin-top: 45px;
+}
+.top15{
+	margin-top: 15px;
+}
+.top25{
+	margin-top: 25px;
+}
+.left20{
+	margin-left: 20px;
+}
+.left10{
+	margin-left: 10px;
+}
+.bg_top_itry_next{
+ box-shadow: 2px 2px 1px #d9d9d9;
+ -o-box-shadow: 2px 2px 1px #d9d9d9;
+ -ms-box-shadow: 2px 2px 1px #d9d9d9;
+ -moz-box-shadow: 2px 2px 1px #d9d9d9;
+ -webkit-box-shadow: 2px 2px 1px #d9d9d9;
+ border: 1px solid #CCC;
+ border-radius: 4px;
+ -o-border-radius: 4px;
+ -ms-border-radius: 4px;
+ -moz-border-radius: 4px;
+ -webkit-border-radius: 4px;
+ margin: 0 10px 25px 0 !important;
+ width: 100%;
+ float: left;
+ background-color: #FFF;
+ padding: 15px 15px 15px 0;
+}
+input.email_address {
+  border: 1px solid #c9c9c9;
+  padding: 4px 10px;
+  width: 100%;
+  color: #666666;
+}
+.contact_info{
+ box-shadow: 2px 2px 1px #d9d9d9;
+ -o-box-shadow: 2px 2px 1px #d9d9d9;
+ -ms-box-shadow: 2px 2px 1px #d9d9d9;
+ -moz-box-shadow: 2px 2px 1px #d9d9d9;
+ -webkit-box-shadow: 2px 2px 1px #d9d9d9;
+ border: 1px solid #CCC;
+ border-radius: 4px;
+ -o-border-radius: 4px;
+ -ms-border-radius: 4px;
+ -moz-border-radius: 4px;
+ -webkit-border-radius: 4px;
+ margin: 0px 10px 25px 0 !important;
+ width: 100%;
+ float: left;
+ background-color: #FFF;
+ padding: 30px 10px;
+}
+.terms_conditions {
+  padding: 10px 15px;
+}
+.continue_btn {
+  background-color: #f9c806;
+  border: medium none;
+  color: #000;
+  font-size: 15px;
+  outline: medium none;
+  padding: 13px 15px;
+  text-align: center;
+  width: 100%;
+}
+.continue_btn1{
+  background-color: #4b4b4b;
+  border: none;
+  color: #F9C806;
+  outline: none;
+  font-size: 18px;
+  padding: 8px 10px;
+  width: 100%;
+  text-align: center;
+}
+.colorgray{
+	color: #666666;
+}
+.bus_details_top_cancel{
+	width: 100%;
+	float: left;
+	text-align: left;
+	margin: 10px 0 10px 0;
+}
+.bus_details_bottom{
+	width: 100%;
+	float: left;
+	text-align: left;
+ margin: 10px 0 0 0;
+ padding-bottom: 10px;
+}
+.depart_bus {
+  background-color: #f3f3f3;
+  font-weight: bold;
+  padding: 10px;
+  border-right: 1px solid #CCC;
+  border-radius: 4px 0 0 4px;
+  min-height: 165px;
+}
+/*css for itinay ends */
+
+/*css for details ends */
+select.gender,select.title {
+  border: 1px solid #c9c9c9;
+  padding: 4px 10px;
+  width: 100%;
+  color: #666666;
+}
+.gender,.title {
+  background: url('../images/down-arrow.png');
+  background-repeat: no-repeat;
+  background-position: 97px 0px;
+  background-color: #FFF;
+  background-size: 32px 32px;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  -ms-appearance: none;
+}
+::selection {
+ background-color: #E33F8D;
+ color: #333;
+}
+.mb0{
+  margin-bottom: 0 !important;
+}
+.m0{
+  margin: 0 !important;
+}
+.mt5{
+  margin-top: 5px !important
+}
+.font13{
+  font-size: 13px !important;
+}
+.top60{
+  margin-top: 60px !important;
+}
+.top10{
+  margin-top: 10px;
+}
+.passenger_name{
+  width: 100%;
+  float:left;
+  background-color: #e8e8e8;
+  border-top: 1px solid #CCC;
+  padding: 10px 15px;
+}
+.passenger_name_one{
+  width: 100%;
+  float:left;
+  background-color: white;
+  border-top: 1px solid #CCC;
+  padding: 10px 15px;
+  font-size: 13px;
+}
+.passenger_name_one_tab{
+  width: 100%;
+  float:left;
+  background-color: white;
+  border-top: 1px solid #CCC;
+  padding: 10px 0;
+  font-size: 13px;
+}
+.passenger_name_two{
+  width: 100%;
+  float:left;
+  background-color: #f8f8f8;
+  border-top: 1px solid #CCC;
+  padding: 10px 15px;
+  font-size: 13px;
+  margin-bottom: 25px;
+}
+.ml10{
+  margin-left: 10px;
+}
+.bold{
+  font-weight: bold;
+}
+.bborder{
+  border-bottom: 1px solid #CCC;
+}
+.continue_btn_cancel {
+  background-color: #f9c806;
+  border: medium none;
+  color: #000000;
+  font-size: 18px;
+  outline: medium none;
+  padding: 8px 10px;
+  text-align: center;
+  width: 100%;
+}
+.price_cancel{
+  text-align: right;
+  font-size: 26px;
+  color: #336699;
+  margin: 5px 0 0 0;
+  font-weight: bold;
+}
+.total_text{
+  font-size: 13px;
+  color: #666666;
+  text-align: right;
+  margin: 0;
+}
+ul.cancel_ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+ul.cancel_ul1 {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.bord_cancel1 {
+  padding: 20px 0;
+  line-height: 35px;
+  min-height: 500px;
+  border-right: 1px solid #CCC;
+}
+li.cancel_li {
+  border: 1px solid #CCC;
+  padding: 10px 15px;
+  border-bottom: transparent;
+  background-color: #FFF;
+}
+li.cancel_li {
+  padding: 10px 15px;
+}
+li.cancel_li:last-child {
+  border-bottom: 1px solid #CCC;
+  padding: 10px 15px;
+  border-radius: 0 0 4px 4px;
+  -o-border-radius: 0 0 4px 4px;
+  -ms-border-radius: 0 0 4px 4px;
+  -moz-border-radius: 0 0 4px 4px;
+  -webkit-border-radius: 0 0 4px 4px;
+}
+li.cancel_li:first-child {
+  padding: 10px 15px;
+  border-radius: 4px 4px 0 0;
+  -o-border-radius: 4px 4px 0 0;
+  -ms-border-radius: 4px 4px 0 0;
+  -moz-border-radius: 4px 4px 0 0;
+  -webkit-border-radius: 4px 4px 0 0;
+}
+a.cancel_a {
+  color: #666666;
+  font-weight: bold;
+}
+a.cancel_a1 {
+  font-weight: 500;
+}
+li.cancel_li1 a.cancel_a1 img{
+  width:23px;
+  margin-right: 10px;
+}
+.a_active{
+  color: #000 !important;
+}
+.cancel_list_active{
+  background-color: transparent !important;
+  border-right: transparent !important;
+  border-radius:0 !important;
+  font-weight: bold !important;
+  color: #000 !important;
+  border-bottom: 3px solid #f2c306 !important;
+}
+.container-cust {
+  box-shadow: none !important;
+  background-color: #f3f3f3 !important;
+}
+.bg_trans{
+  background-color: transparent !important;
+}
+.container-fluid {
+ box-shadow: none !important;
+}
+.newsletter {
+  margin-top: 0 !important;
+}
+.bgcolor{
+  margin-bottom: 3rem;
+}
+.cancel_nav_bg{
+  background-color: #4b4b4b !important;
+  color: #F9C806 !important;
+}
+.txtrit{
+  text-align: right;
+}
+.p0{
+  padding: 0 !important;
+}
+.txtuline{
+  text-decoration: underline !important;
+}
+.bg-cancellation{
+  background-color: #484848;
+  color: #f9c806;
+  font-size: 3.2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding: 0.2em;
+  text-align: center;
+}
+.p20{
+  padding:20px;
+}
+.htxt4{
+ color: #999999; 
+ font-size: 20px;
+}
+.htxt6{
+ color: #999999;
+ font-size: 14px;
+}
+.wcol{
+  color: white;
+}
+.blue{
+  color: #337ab7 !important;
+}
+.ycol{
+ color: #f9c806;
+}
+.f20px{
+  font-size: 20px;
+}
+.marydale{
+  font-family: marydale inspired, serif;
+}
+/*css for details ends */
+
+
+/*css for fare calender starts */
+.black{
+  color: #000;
+}
+.right{
+  float: right;
+}
+.f12{
+  font-size: 12px;
+}
+.f10{
+  font-size: 10px;
+}
+.f9 {
+  font-size: 9px;
+}
+.f8 {
+  font-size: 8px;
+}
+.filter {
+  padding: 0;
+  margin: 0;
+  color: #000;
+  font-size: 16px;
+}
+.filter_irt {
+  color: #2459a5;
+  font-size: 11px;
+  text-align: right;
+  cursor: pointer;
+}
+.top5{
+  margin-top: 5px;
+}
+.pr20{
+  padding-right: 20px;
+}
+.border-right{
+  border-right: 1px solid #cdcdcd;
+}
+.nbold{
+  font-weight: normal !important;
+}
+.bord_cancel.border-right.pr20 {
+  padding-bottom: 50px;
+}
+.arrow_bus{
+  position: absolute;
+  right: 45px;
+}
+.heading_onward{
+  border-bottom: 1px solid #CCC;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.heading_return{
+  border-bottom: 1px solid #CCC;
+  border-top: 1px solid #CCC;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.heading_onward_pax{
+  border-top: 1px solid #CCC;
+  padding: 10px;
+  margin-top: 10px;
+}
+.heading_return_pax{
+	border-top: 1px solid #CCC;
+  padding: 10px;
+}
+
+/*css for fare calender ends */
+
+.ul_main_mb {
+  background-color: #484848;
+  float: left;
+  width: 100%;
+  margin: 10px 0 !important;
+  border-radius: 4px;
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  color: #FFF;
+  box-shadow: 0px 2px 3px #9B9B9B;
+  -o-box-shadow: 0px 2px 3px #9B9B9B;
+  -ms-box-shadow: 0px 2px 3px #9B9B9B;
+  -moz-box-shadow: 0px 2px 3px #9B9B9B;
+  -webkit-box-shadow: 0px 2px 3px #9B9B9B;
+}
+.ul_main_mb_recharge {
+  background-color: #484848;
+  float: left;
+  width: 69%;
+  margin: 10px 0 !important;
+  border-radius: 4px;
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  color: #FFF;
+  box-shadow: 0px 2px 3px #9B9B9B;
+  -o-box-shadow: 0px 2px 3px #9B9B9B;
+  -ms-box-shadow: 0px 2px 3px #9B9B9B;
+  -moz-box-shadow: 0px 2px 3px #9B9B9B;
+  -webkit-box-shadow: 0px 2px 3px #9B9B9B;
+}
+
+ul.manage_booking_list_ul {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #484848;
+}
+
+li.manage_booking_list {
+  border-right: 1px solid #666666;
+  text-align: center;
+  font-size: 12px;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+li.manage_recharge_list {
+  border-right: 1px solid #666666;
+  text-align: center;
+  font-size: 12px;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+li.manage_booking_list:hover {
+  color: #f9c806 !important;
+  border:1px solid #f9c806;
+}
+
+.br4{
+  border-radius: 4px;
+}
+
+li.manage_booking_list:last-of-type {
+  border-right: transparent !important;
+  text-align: center;
+  font-size: 12px;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+
+}
+li.manage_recharge_list:last-of-type {
+  border-right: transparent !important;
+  text-align: center;
+  font-size: 12px;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+
+}
+a.manage_booking_list_anc {
+  color: white;
+  padding:-1px 15px;
+  margin: 0;
+  line-height: 35px;
+  text-align: center;
+  float:left;
+  width:100%;
+}
+
+a.manage_booking_list_anc:hover,a.manage_booking_list_anc:active,a.manage_booking_list_anc:focus {
+  color: #f9c806 !important;
+}
+
+.mb_active{
+  color: #f9c806 !important;
+  border:1px solid #f9c806 !important;
+}
+
+.search_top_mb {
+  border: 1px solid #D0D0D0;
+  padding: 8px 15px;
+  background-repeat: no-repeat;
+  background-color: #FFF;
+  background-position: right center;
+  background-origin: content-box;
+  padding-right: 5px;
+  float: right;
+  width: 85%;
+  border-radius: 4px;
+  box-shadow: 2px 2px 8px 1px #CCC inset;
+  position: relative;
+}
+
+.fap{
+  position: absolute;
+  right: 27px;
+  top: 22px;
+}
+.bg_top_itry_mb {
+  box-shadow: 2px 2px 1px #d9d9d9;
+  -o-box-shadow: 2px 2px 1px #d9d9d9;
+  -ms-box-shadow: 2px 2px 1px #d9d9d9;
+  -moz-box-shadow: 2px 2px 1px #d9d9d9;
+  -webkit-box-shadow: 2px 2px 1px #d9d9d9;
+  border: 1px solid #CCC;
+  margin: 0 10px 15px 0 !important;
+  width: 100%;
+  float: left;
+  font-size: 11px !important;
+  color: #333 !important;
+  font-weight: bold;
+  background-color: #C7EEFF;
+  cursor: pointer;
+}
+
+ul.dropdown-menu.booking_list li {
+  padding: 5px 10px;
+  border-bottom: 1px solid #CCC;
+  width: 100%;
+  line-height: 30px;
+  clear: both;
+  float: left;
+}
+ul.booking_list1 li {
+  padding: 5px 10px;
+  border-bottom: 1px solid #CCC;
+  width: 100%;
+  line-height: 30px;
+  clear: both;
+  float: left;
+}
+ul.dropdown-menu.booking_list li:last-of-type {
+  padding: 5px 10px;
+  border-bottom: transparent !important;
+  width: 100%;
+  line-height: 30px;
+  clear: both;
+  float: left;
+}
+ul.booking_list1 li:last-of-type {
+  padding: 5px 10px;
+  border-bottom: transparent !important;
+  width: 100%;
+  line-height: 30px;
+  clear: both;
+  float: left;
+}
+ul.dropdown-menu.booking_list {
+  top: 36px;
+  left: -1px;
+  border-radius: 0 !important;
+  width: 250px;
+  font-size: 12px;
+  color: #336699;
+  font-weight: 600 !important;
+}
+#dLabel{
+  padding: 10px;  
+}
+#dLabel:hover{
+  padding: 10px;  
+  background-color: white;
+}
+#dLabel1{
+  padding: 10px;  
+  cursor: pointer;
+}
+#dLabel1:hover{
+  padding: 10px;  
+  border-left:1px solid #CCC;
+}
+.ptb10{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.plr5{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.all-type-img{
+  width: 80%;
+  float: left;
+}
+
+.img_mb {
+  width: 20%;
+  float: left;
+}
+
+.all-type-img1{
+  width: 75%;
+  float: left;
+  font-weight: normal;
+}
+
+.img_mb1 {
+  width: 25%;
+  float: left;
+}
+.passenger_name_mb {
+  width: 100%;
+  float: left;
+  border-bottom: 1px solid #CCC;
+  font-size: 13px;
+}
+.p15{
+  padding: 15px;
+}
+.p10{
+  padding: 10px;
+}
+.bg_top_itry_mb1 {
+  box-shadow: 2px 2px 1px #d9d9d9;
+  -o-box-shadow: 2px 2px 1px #d9d9d9;
+  -ms-box-shadow: 2px 2px 1px #d9d9d9;
+  -moz-box-shadow: 2px 2px 1px #d9d9d9;
+  -webkit-box-shadow: 2px 2px 1px #d9d9d9;
+  border: 1px solid #CCC;
+  border-radius: 4px;
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  margin: 0 10px 15px 0 !important;
+  width: 100%;
+  float: left;
+}
+.bg_white{
+  background-color: white;
+}
+ul.booking_list1 {
+  top: 36px;
+  right: -2px !important;
+  border-radius: 0 !important;
+  width: 162px;
+  font-size: 12px;
+  color: #336699;
+  font-weight: 600 !important;
+}
+
+ul.dropdown-menu.booking_list1 li{
+  cursor: pointer;
+}
+.modal-header_mb {
+  min-height: 16.43px;
+  padding: 15px;
+  border-top: 5px solid #ffcc00;
+  background-color: #404040;
+}
+
+.close {
+ /* background: url('../../images/airline/generic/close_eprint.png') no-repeat 0px 0px !important;*/
+  padding: 15px !important;
+  content: "";
+  width: 20px;
+  height: 20px;
+}
+
+.cwhite{
+  color: white !important;
+}
+
+hr{
+  border-top: 1px solid #CCC;
+  padding: 0;
+  margin: 20px 0 !important;
+  width: 100%;
+  clear: both;
+}
+.hr{
+  border-top: 1px solid #CCC;
+  padding: 0;
+  margin-top: 10px !important;
+  width: 100%;
+  clear: both;
+}
+.pt10{
+  padding-top: 10px;
+}
+
+.top20{
+  margin-top: 20px !important;
+}
+
+.flight-details-mb{
+  width: 100%;
+  float: left;
+  clear: both;
+  padding: 10px 0;
+
+}
+.passenger_name_mbs {
+  width: 100%;
+  float: left;
+  background-color: #e8e8e8;
+  border-top: 1px solid #CCC;
+  padding: 10px 0;
+}
+.passenger_name_mbs1 {
+  width: 100%;
+  float: left;
+  background-color: #e8e8e8;
+  padding: 10px 0;
+}
+.passenger_name_mbsn {
+  width: 100%;
+  background-color: #e8e8e8;
+  padding: 10px 0;
+}
+.mb5{
+  margin-bottom: 5px !important;
+}
+.passenger_name_one:nth-child(2n){
+  background-color: #F8F8F8 !important;
+}
+
+.pas_name_one {
+  width: 100%;
+  float: left;
+  background-color: white;
+  border-top: 1px solid #CCC;
+  padding: 10px 0px;
+  font-size: 13px;
+}
+
+.mr10{
+  margin-right: 10px;
+}
+.pr0{
+  padding-right: 0 !important;
+}
+
+.bt0{
+  border-top: transparent !important;
+}
+
+table.fare_details_table>tbody>tr>td{
+  padding: 10px 20px;
+}
+
+table{
+  width: 100%;
+}
+table.table-inner-mb>tbody>tr>td{
+  padding: 5px 0px;
+}
+
+.bor-btm{
+  border-bottom: 1px solid #CCC;
+}
+
+h1.details_bus_mb {
+  color: #000;
+  font-size: 28px;
+  margin: 0 !important;
+  font-family: 'Raleway', sans-serif;
+}
+
+.mt30{
+  margin-top: 30px;
+}
+
+.align-right{
+  text-align: right;
+}
+
+.align_content{
+  background-color: #F8F8F8;
+  border: 1px solid #CCC;
+  padding: 7px 30px;
+  font-size: 12px;
+  color: #396999;
+  width: 100%
+}
+
+.top11{
+  margin-top: 11px;
+}
+
+.hotel_image {
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+}
+
+.depart_hotel_rit {
+  background-color: #f3f3f3;
+  padding: 10px;
+  border-left: 1px solid #CCC;
+  border-radius: 0 4px 4px 0;
+  min-height: 180px;
+}
+.lin_text {
+  width: 100%;
+  float: left;
+  position: relative;
+  margin: 10px 0;
+}
+
+.line_hr {
+  border-bottom: 2px solid #CCC;
+}
+
+.line_hover_text {
+  position: absolute;
+  top: -10px;
+  text-align: center;
+  left: 105px;
+  background-color: #F3F3F3;
+  padding: 0 5px;
+  font-weight: bold;
+  color: #909090;
+}
+
+.mar_r_3 {
+  margin-right: 3px;
+  float: left;
+  width: 30px;
+  font-size: 20px;
+}
+
+.d1 {
+  float: left;
+  width: 25px;
+}
+
+.itenary_date {
+  width: 24%;
+  float: left;
+}
+
+.depart_hotel_rit11 {
+  background-color: #f3f3f3;
+  padding: 20px;
+  border-left: 1px solid #CCC;
+  min-height: 219px;
+}
+
+.img-btm-one{
+  background-color: #F8F8F8;
+  color: #337ab7;
+  padding: 10px;
+  width: 100%;
+  clear: both;
+  margin:0;
+  font-size: 12px;
+  float: left;
+  border: 1px solid #EAE8E8;
+}
+.bg_top_itry_mbb {
+    box-shadow: 2px 2px 1px #d9d9d9;
+    -o-box-shadow: 2px 2px 1px #d9d9d9;
+    -ms-box-shadow: 2px 2px 1px #d9d9d9;
+    -moz-box-shadow: 2px 2px 1px #d9d9d9;
+    -webkit-box-shadow: 2px 2px 1px #d9d9d9;
+    border: 1px solid #CCC;
+    margin: 0 10px 15px 0 !important;
+    width: 100%;
+    float: left;
+    background-color: #FFF;
+}
+.contact_info_mb {
+    box-shadow: 2px 2px 1px #d9d9d9;
+    -o-box-shadow: 2px 2px 1px #d9d9d9;
+    -ms-box-shadow: 2px 2px 1px #d9d9d9;
+    -moz-box-shadow: 2px 2px 1px #d9d9d9;
+    -webkit-box-shadow: 2px 2px 1px #d9d9d9;
+    border: 1px solid #CCC;
+    margin: 0px 10px 25px 0 !important;
+    width: 100%;
+    float: left;
+    background-color: #FFF;
+    padding: 10px 15px;
+}
+
+.contact_info_table {
+    box-shadow: 2px 2px 1px #d9d9d9;
+    -o-box-shadow: 2px 2px 1px #d9d9d9;
+    -ms-box-shadow: 2px 2px 1px #d9d9d9;
+    -moz-box-shadow: 2px 2px 1px #d9d9d9;
+    -webkit-box-shadow: 2px 2px 1px #d9d9d9;
+    border: 1px solid #CCC;
+    margin: 0px 10px 25px 0 !important;
+    width: 100%;
+    float: left;
+    background-color: #FFF;
+    font-size: 12px;
+}
+
+.passenger_name_table{
+    width: 100%;
+    float: left;
+    background-color: #e8e8e8;
+    padding: 10px 0;
+}
+
+.refine-search-results dt {
+    color: #666;
+    padding: 12px 12px;
+    background: url('../../../extras/images/hotel/generic/arrow-right.png') 97% 15px no-repeat;
+    cursor: pointer;
+    margin: 0px;
+    border: 1px solid #C8C8C8 !important;
+    background-color: #E8E8E8 !important;
+    color: black;
+}
+
+
+dl {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+dd {
+    margin-left: 0;
+    background-color: white;
+    padding: 12px;
+    color: #23589c !important;
+    font-weight: 700;
+    border-left: 1px solid #C8C8C8;
+    border-bottom: 1px solid #C8C8C8;
+    border-right: 1px solid #C8C8C8;
+        box-shadow: 2px 2px 1px #d9d9d9;
+    -o-box-shadow: 2px 2px 1px #d9d9d9;
+    -ms-box-shadow: 2px 2px 1px #d9d9d9;
+    -moz-box-shadow: 2px 2px 1px #d9d9d9;
+    -webkit-box-shadow: 2px 2px 1px #d9d9d9;
+
+}
+
+
+.refine-search-results dt.active {
+    background: url('../../../extras/images/hotel/generic/arrow-down.png') 97% 16px no-repeat;
+}
+
+.dropdown-menu>li>a {
+    display: block;
+    padding: 0 !important;
+    clear: both;
+    font-weight: 600;
+    line-height: 1.42857143;
+    white-space: nowrap;
+    color: #336699 !important;
+}
+li.amenity1 {
+  list-style-image: url('../../../extras/images/hotel/generic/list_img.png') !important;
+  background-repeat: no-repeat;
+  line-height: 22px;
+  vertical-align: middle;
+  vertical-align: middle;
+  font-size: 14px;
+  text-shadow: 0em 0.001em 0.001em #2A2A2A;
+  -o-text-shadow: 0em 0.001em 0.001em #2A2A2A;
+  -ms-text-shadow: 0em 0.001em 0.001em #2A2A2A;
+  -moz-text-shadow: 0em 0.001em 0.001em #2A2A2A;
+  -webkit-text-shadow: 0em 0.001em 0.001em #2A2A2A;
+}
+ul.amenit{   padding-left: 28px;}
+
+
+ul.drp_dwn {
+left: 76px;
+top: 22px;
+}
+i#search_booking_id_btn {
+    top: 30px;
+    right: 42px;
+}
+.btnfly-search {
+  background-color: #F9C806 !important;
+  border: 2px solid #F9C806 !important;
+  color: #000;
+  outline: none;
+  font-size: 12px;
+  padding: 5px 20px;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+.transaction {
+  background-color: #e8e8e8;
+  color: black;
+  font-size: 12px;
+  border: 1px solid #CCC;
+  width: 100%;
+  float: left;
+  padding: 20px;
+}
+.h3-user{
+  font-size: 20px;
+  color: black;
+  padding: 0;
+  margin: 0 0 10px 0 !important;
+}
+
+
+@media only screen and (max-width : 784px) {
+li.manage_booking_list {
+  width:100%;
+}
+.search_top_mb{width: 100%;}
+.fl_manage{float: left; width: 100%;}
+i#search_booking_id_btn {
+    right: 24px;
+    top: 42px;
+}
+	.bookhide{display:none;}
+
+
+}
+
+.mob_booking{display:none;}

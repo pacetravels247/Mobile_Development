@@ -1,0 +1,530 @@
+/* ========================================================================================
+   General Style Starts
+   ====================================================================================  */
+:-webkit-full-screen { /* properties */
+	
+}
+
+:-moz-full-screen { /* properties */
+	
+}
+
+:-ms-fullscreen { /* properties */
+	
+}
+
+:full-screen { /*pre-spec */ /* properties */
+	
+}
+
+:-webkit-full-screen { /* spec */ /* properties */
+	
+}
+
+:-moz-full-screen { /* spec */ /* properties */
+	
+}
+
+:-ms-fullscreen { /* spec */ /* properties */
+	
+}
+
+:fullscreen { /* spec */ /* properties */
+	
+}
+
+/* deeper elements */
+:-webkit-full-screen video {
+	width: 100%;
+	height: 100%;
+}
+
+/* styling the backdrop*/
+::backdrop { /* properties */
+	
+}
+
+::-ms-backdrop { /* properties */
+	
+}
+
+/* For JavaScript Disabled Starts */
+noscript {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 9999;
+	background: white;
+}
+
+/* img current size is 64px */
+noscript img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -32px;
+	margin-left: -32px;
+}
+
+/* For JavaScript Disabled Ends */ /* For Default Font Size Starts */
+/* For Default Font Size Ends */
+.hidden-ip {
+	width: 0px;
+	border: none;
+	background: transparent;
+}
+
+.search-engine .form-control {
+	background-color: #b8b8b8;
+	border: 0 none;
+	color: #000000;
+}
+
+.search-engine .form-control.hasDatepicker {
+	color: #0d084b;
+	font-weight: bold;
+}
+
+.invalid-ip {
+	border: 1px solid #cf2700 !important;
+}
+
+.hand-cursor {
+	cursor: pointer;
+}
+
+legend {
+	background-color: #dfdfdf;
+}
+
+.pagination, .pagination li, .pagination li a {
+	margin: 0;
+	color: #2e4057 !important;
+}
+
+.contrast10 {
+	font-size: 10px;
+}
+
+/* ========================================================================================
+   General Style Ends
+   ====================================================================================  */
+/** Reduce Menu Size **/
+.nav-stacked {
+	font-size: 12px;
+}
+
+/* ========================================================================================
+   Application Specific Style Starts
+   ====================================================================================  */
+/* ========================================================================================
+   Table Modifier Start
+   ====================================================================================  */
+/* ========================================================================================
+   Table Modifier End
+   ====================================================================================  */
+/* ========================================================================================
+   Application Specific Style Ends
+   ====================================================================================  */
+/* ========================================================================================
+   Header Style Starts
+   ====================================================================================  */
+.navbar {
+	min-height: 82px;
+}
+
+.navbar-toggle {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:hover,
+	.navbar-inverse .navbar-brand:active, .navbar-inverse .navbar-brand:focus
+	{
+	height: auto;
+}
+
+.login-logo {
+	/*background: #222;*/
+	padding: 25px 0;
+	margin-bottom: 10px;
+}
+
+/* ========================================================================================
+   Header Style Ends
+   ====================================================================================  */
+/* ========================================================================================
+   Section Style Starts
+   ====================================================================================  */
+/* ========================================================================================
+   Section Style Ends
+   ====================================================================================  */
+/* ========================================================================================
+   Footer Style Starts
+   ====================================================================================  */
+/* Sticky Footer Starts */
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	background: #f5f5f5;
+}
+
+.footer {
+	bottom: 0;
+	width: 100%;
+}
+
+/* Sticky Footer Ends */
+/* ========================================================================================
+   Footer Style Ends
+   ====================================================================================  */
+/* ========================================================================================
+   Don't Make Any Normal CSS in below Media Query
+   ====================================================================================  */
+/* ========================================================================================
+   Media Query Starts
+   ====================================================================================  */
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+	.navbar-collapse {
+		text-align: center;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+	.navbar-collapse {
+		margin-top: 17px;
+	}
+	.dropdown:hover .dropdown-menu, .dropdown:focus .dropdown-menu {
+		display: block;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+}
+
+/* ========================================================================================
+   Media Query Ends 
+   ====================================================================================  */
+/* Print */
+@media print {
+	aside, .printMedia {
+		display: none;
+	}
+}
+
+/* Print End */ /* REMINDER TYPES*/
+.form-horizontal legend {
+	padding: 6px 10px;
+	color: #000000;
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand
+	{
+	width: 108px;
+}
+
+.container-fluid {
+	box-shadow: 0 0 4px #FFFFFF;
+}
+
+.center-align-image {
+	margin: auto;
+	display: block;
+}
+
+.table.table-bordered.table-condensed input[type='date']::-webkit-clear-button,
+	.table.table-bordered.table-condensed input[type='date']::-webkit-inner-spin-button,
+	.table.table-bordered.table-condensed input[type='date']::-webkit-calendar-picker-indicator
+	{
+	display: none;
+}
+
+.btn-info {
+	background-color: #009688;
+	border-color: #008678;
+}
+
+.btn-success {
+	background-color: #108e4c;
+	border-bottom-color: #006e2c;
+}
+
+.btn-primary {
+	background-color: #3d74cd;
+}
+
+.btn-warning {
+	background-color: #ff5722;
+	border-color: #ef4712;
+}
+
+.btn-danger {
+	background-color: #f44336;
+	border-color: #e43326;
+}
+
+.label-default {
+	background-color: #455157;
+}
+
+.carousel-inner {
+	height: 120%;
+}
+
+.carousel-inner .item {
+	height: 100%;
+}
+
+#log-slider img {
+	width: 100%;
+	max-height: 100%;
+}
+
+.optional-view {
+	display: none;
+}
+/** Cancellation CSS **/
+.cancellation_page {
+	
+}
+
+.head_can {
+	border-bottom: 1px dashed #ccc;
+	display: block;
+	margin: 0 0 20px;
+	overflow: hidden;
+}
+
+.canc_hed {
+	color: #333;
+	float: left;
+	font-size: 26px;
+	font-weight: normal;
+	margin: 0;
+	padding: 10px 0;
+}
+
+.ref_number {
+	color: #666;
+	float: right;
+	font-size: 14px;
+	text-align: right;
+}
+
+.rows_cancel {
+	
+}
+
+.rows_cancel strong {
+	
+}
+
+.cancel_bkd {
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #fff;
+	border-radius: 3px;
+	box-shadow: 0 1px 2px 0 #ccc;
+	float: left;
+	width: 100%;
+}
+
+.pad_evry {
+	display: block;
+	overflow: hidden;
+	padding: 10px;
+}
+
+.imge_can {
+	float: left;
+	margin-right: 10px;
+	overflow: hidden;
+	width: 60px;
+}
+
+.imge_can img {
+	width: 100%;
+}
+
+.can_flt_name {
+	color: #444;
+	display: block;
+	overflow: hidden;
+}
+
+.can_flt_name strong {
+	color: #666;
+	display: block;
+	font-size: 11px;
+	font-weight: normal;
+	overflow: hidden;
+}
+
+.place_big_text {
+	color: #333;
+	display: block;
+	font-size: 16px;
+	font-weight: 500;
+	overflow: hidden;
+}
+
+.place_smal_txt {
+	color: #666;
+	display: block;
+	font-size: 13px;
+	overflow: hidden;
+}
+
+.date_mension {
+	color: #666;
+	display: block;
+	font-size: 12px;
+	overflow: hidden;
+}
+
+.aroow_can.fa {
+	color: #666;
+	display: block;
+	font-size: 24px;
+	margin: 15px 0 0;
+	overflow: hidden;
+}
+
+.row_can_table.hed_table {
+	background: #ddd;
+}
+
+.row_can_table {
+	background: #fff none repeat scroll 0 0;
+	border-bottom: 1px dashed #ddd;
+	float: left;
+	width: 100%;
+}
+
+.can_pads {
+	color: #444;
+	display: block;
+	font-size: 13px;
+	overflow: hidden;
+	padding: 10px;
+}
+
+.can_pads .fa {
+	margin-right: 3px;
+}
+
+.row_can_table.hed_table .can_pads {
+	color: #333;
+}
+
+.row_can_table:last-child {
+	border-bottom: 0;
+}
+
+.ritside_can {
+	float: right;
+}
+
+.btn_continue {
+	display: block;
+	overflow: hidden;
+	padding: 20px 0;
+}
+
+.amnt_disply {
+	color: #444;
+	display: block;
+	font-size: 12px;
+	margin-right: 20px;
+	overflow: hidden;
+	text-align: right;
+	text-transform: uppercase;
+}
+
+.amnt_paid {
+	font-size: 20px;
+}
+
+.amnt_paid .fa {
+	margin-right: 4px;
+}
+
+.confir_can {
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #fff;
+	border-radius: 3px;
+	box-shadow: 0 1px 2px 0 #ccc;
+	float: left;
+	margin: 20px 0;
+	overflow: hidden;
+	padding: 20px;
+	width: 100%;
+}
+
+.can_msg {
+	color: #308f0f;
+	display: block;
+	font-size: 30px;
+	margin: 10px 0 20px;
+	overflow: hidden;
+	text-align: center;
+}
+
+.marg_cans {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	display: block;
+	margin: 20px;
+	overflow: hidden;
+}
+
+.bookng_iddis {
+	color: #666;
+	display: block;
+	font-size: 14px;
+	line-height: 40px;
+	overflow: hidden;
+	text-align: center;
+}
+
+.down_can {
+	background: #eee none repeat scroll 0 0;
+	color: #333;
+	display: block;
+	font-size: 20px;
+	overflow: hidden;
+	padding: 10px;
+}
+/** Cancellation CSS Ends**/
+.radio .control-label{
+	font-weight: bold;
+}
+
+.can_msg {
+    max-width: 50%;
+    margin: 30px auto;
+    background: #16acdf !important;
+    border: 1px solid #1397c4;
+    color: #ffffff !important;
+    line-height: 20px;
+    font-size: 17px;
+    text-align: left;
+    padding: 10px;
+    border-radius: 2px;
+}

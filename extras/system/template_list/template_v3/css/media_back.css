@@ -1,0 +1,981 @@
+.map_tab, .list_tab{display:none;}
+@media(max-width:1199px){.reglog{min-width:70px;}
+.logo{min-width:auto;padding:15px 0}
+.topssec.fixed .logo{padding:9px 0}
+.logo img,
+.topssec.fixed .logo img{max-width:200px}
+#slidebarscr, #nxtbarslider{position:relative !important;width:100% !important;}
+.grd_tol td{font-size:20px !important;}
+.grd_tol th{font-size:16px !important;}
+.tblemd td, .tblemd th{width:auto;}
+}
+@media(max-width:1199px){.marhtldet .locadres{width:75%;}
+.triexcer{font-size:18px;}
+.triexcimg img{padding:5px 0 0;}
+.amthtlrs{font-size:30px;}
+.trpratclr{font-size:18px;}
+.untdate{font-size:15px;line-height:20px;}
+.chkin{font-size:14px;}
+.modifysrch{font-size:11px;}
+.stdnonaclt{font-size:16px;}
+.amthtlrsstd{font-size:22px;}
+.cheoutdv{padding:12px 2px;}
+.chkdate{font-size:14px;}
+.stdnonacltfre{font-size:15px;}
+.exploreall li a{padding:0 8px;}
+.exploreall li a strong{font-size:13px;}
+.view_type{margin:0 2px;font-size:16px;}
+.normalinput{padding:0 10px 0 35px;font-size:13px;}
+.totlall, .normalsel{font-size:13px;}
+#roomCancelModal .modal-content{width:76%;margin:40px auto 0;}
+.seat_set{line-height:17px !important;margin-bottom:10px;font-size:12px !important;}
+.filterforall.addtwofilter .sorta .fal { display: none;}
+#flight_search_result .n-r-t {font-size: 12px;text-align: center;}
+.round-domestk .mrinfrmtn > i {width: 71%;padding: 8px 6px;}
+#flight_search_result .round-domestk .n-r-t {font-size: 10px; }
+.round-domestk .smalairport { font-size: 12px; }
+.round-domestk .bigtimef {font-size: 16px;}
+.round-domestk .airlinename { padding: 0px;}
+.round-domestk .durtntime { font-size: 12px !important; }
+body { font-size: 12px; }
+}
+@media(max-width:1100px){.propopum{width:991px}
+}
+@media(min-width:992px){.coleft, .sepmenus{display:block;}
+}
+@media(max-width:991px){.close_fil_box{display:block !important;position:absolute;top:10px;right:19px;font-size:20px;cursor:pointer;}
+.insideactivity{padding:0;width:100%;}
+.ttlamtdvot{font-size:20px;}
+.rit_summery, .full_summery_tab{width:100%}
+.rhttbepa{padding-left:0;width:100%}
+.logininwrap{margin:20px 0 5px}
+.insiefare{padding:0}
+.policy_text{font-size:14px;}
+.lazy.lazy_loader{height:150px;min-height:150px}
+#roomCancelModal .modal-content{width:100%;margin:40px auto 0;}
+.triexcimg img{max-width:170px;width:170px;}
+.trptrvrat{font-size:17px;}
+.triexcer{font-size:25px;}
+.trpratclr{font-size:25px;}
+.rombtndv{font-size:16px;padding:5px;line-height:24px;}
+.romsfst .fa.fa-inr{font-size:19px;}
+.romtyprice{font-size:22px;}
+.noof_ave{width:100%;max-width:156px;}
+.romtypefrecan p{font-size:16px;margin:0;}
+.romtypefrecan{font-size:16px;}
+.romtypestd{font-size:18px;}
+.chkdate{font-size:17px;}
+.chkin{font-size:18px;}
+.cheoutdv{padding:12px 15px;}
+.untdate{font-size:19px;}
+.stdnonacltfre{font-size:18px;}
+.amthtlrsstd{font-size:30px;}
+.stdnonaclt{font-size:20px;}
+.amthtlrs{font-size:42px;}
+.resmagfix{margin:10px 0;padding:0 !important;}
+.modifysrch{width:65%;border:2px solid #fff;}
+.mdyfydsktp{display:none;}
+.mobresdv{display:block;font-size:35px;line-height:17px;}
+.propopum {top: 0px !important;width: 94% !important;left: 3% !important;}
+.full_clear{padding:0 0 10px;}
+.sidebtn .dropdown-menu.exploreul{left:auto;margin:0;right:0;}
+.sidebtn .dropdown-menu.exploreul::before{left:auto;margin:0;right:20px;}
+.ful_logo{display:none;}
+.tab_logo{display:block;}
+.logo,
+.topssec.fixed .logo{padding:7px 0;}
+.topssec.fixed .cmnexplor{height:40px;opacity:1;}
+.exploreall li a{padding:10px;}
+.topssec .cmnexplor{display:block;opacity:1;}
+.topssec{height:60px;}
+.topssec .ritsude{padding:5px 0;}
+.logo{max-width:150px;min-width:0;}
+.userorlogin{display:none;}
+.reglog{min-width:0;}
+.caret.cartdown{right:0;}
+.topa{margin-left:5px;}
+.flags{margin:15px 15px 0 0;}
+.captngrp{margin:30px 0;display:none;}
+.bigcaption{font-size:38px;}
+.smalcaptn{font-size:20px;}
+.advsncerdch .col-xs-3{width:33.333%;}
+.fulnine{width:100%;}
+.centertio{display:table;margin:0 auto;}
+.centertio .ftrhd{display:none;}
+.centertio .signupfm > li{float:left;}
+#onw_rndw_fieldset .placerows,
+#onw_rndw_fieldset .secndates,
+#onw_rndw_fieldset .thrdtraveller{float:left;width:100%;}
+.placerows .col-xs-6{padding:0 2px;}
+.farhomecal{float:left;}
+.modfictions.fixd{position:static;}
+.search-result.flightresltpage,
+.search-result.flightresltpage.onlyfrflty{margin:0;}
+.search-result.flightresltpage::before{display:none;}
+.colrit{width:100% !important;}
+.coleft{background:#fff none repeat scroll 0 0;box-shadow:0 0 10px -5px #000;display:none;left:0;position:absolute;top:40px;width:50%;z-index:100;max-width:285px;}
+.resultalls.open .colrit .vluendsort,
+.resultalls.open .colrit .result_srch_htl,
+.resultalls.open .colrit .filterforall,
+.resultalls.open .colrit .allresult .row,
+.resultalls.open .allbusresult{}
+.filter_tab{background:#0096cf;border-right:1px solid #0096cf;color:#fff;cursor:pointer;display:inline-block;float:left;font-size:16px;line-height:31px;text-align:center;padding:3px 15px;width:auto;margin:2px 0;}
+.mapviw.noviews{float:right;display:table;width:100%;overflow:hidden;margin:0;}
+.none_mody{display:none;}
+.calandcal,
+.airlinrmatrix{display:none;}
+.topmisty{margin:0 0 10px;}
+.insidebosc{padding:0;}
+.filterforall{display:block;overflow:hidden;}
+.modfictions.fixd .modinew{padding:0;}
+.full_wher{width:100%;}
+.bars_menu.fa{display:block;}
+.sepmenus{background:#fff none repeat scroll 0 0;border-radius:3px;box-shadow:0 4px 10px -3px #000;padding:0;position:absolute;top:60px;z-index:1000;}
+.exploreall{border-radius:3px;float:left;min-width:200px;overflow:hidden;}
+.exploreall li{border-bottom:1px solid #eee;display:block;float:none;overflow:hidden;}
+.topssec .cmnexplor{display:none;float:left;margin-right:10px;opacity:1;}
+.exploreall li a strong{line-height:30px;text-align:left;color:#333;}
+.sepmenus::before{background:url(../images/sprite1.png) no-repeat scroll -525px 0 rgba(0, 0, 0, 0);content:"";height:15px;left:2px;position:absolute;top:-11px;width:28px;}
+.sepmenus{display:none;}
+.flag_images{margin:8px 10px 0 0;}
+.userimage{height:32px;margin:8px 20px 0 0;width:32px;}
+.userimage img{min-height:32px;}
+.sorta strong{font-size:11px;font-weight:400;line-height:8px;margin:0;text-align:center;}
+.sorta .fa{}
+.fixincrmnt,
+.fixincrmnt.fixed{bottom:0;left:0;position:fixed;right:0;top:auto;width:100%;z-index:99;}
+.filterforall.addtwofilter.fixed{margin-top:0}
+.insidecurent{margin:0 auto;padding:0 10px;width:750px;}
+.insidecurent .outbound-details,
+.insidecurent .inbound-details{display:none;}
+.insidecurent .flect.stop-count{display:none;}
+.insidecurent .flightimage{width:100%;}
+.insidecurent .selctarln{padding:0;}
+.insidecurent .sidepricewrp .col-xs-7,
+.insidecurent .sidepricewrp .col-xs-5{width:100%;}
+.insidecurent .sidepricebig{font-size:18px;padding:0;}
+.insidecurent .padflt.nonefity{font-size:11px;padding:0;}
+.round-domestk .priceflights{font-size:15px}
+.amnterbig{color:#333;}
+.farestybig{line-height:20px;}
+.bookcont{font-size:16px;padding:10px 12px;}
+.mensionsoc{font-size:14px;}
+.topalldesc .jetimg,
+.ontyp .jetimg{margin:0;text-align:center;width:100%;}
+.topalldesc .alldiscrpo,
+.ontyp .alldiscrpo{text-align:center;width:100%;}
+.celtbcel{float:left;width:100%;}
+.international_passport_content_div{float:left;width:100%;}
+.vluendsort{display:block;float:none;overflow:hidden;width:auto;}
+.modal-body > iframe{width:100%!important;}
+.priceflights.eachroomprice{font-size:18px;}
+.full_nty,
+.paspolbl{width:100%}
+.cellpas{display:block}
+.paspertedit .margpas{margin:5px 0;padding:0 5px}
+.topbokro{height:auto}
+.pnrnum{float:left}
+.city_close_btn{font-size:16px;right:-22px;font-weight:500;}
+}
+@media(max-width:767px){.lettrfty{font-size:14px;}
+.facltyid{font-size:15px;}
+.htldtdv #map_viewsld{top:-20px;}
+.insidecurent{width:100%}
+.popconyent .imagesmflt{display:block;float:none;margin-right:0;overflow:hidden;width:100%}
+.popconyent .flitsmdets{display:block;line-height:14px;overflow:hidden}
+.round-domestk .bigtimef{font-size:15px}
+.round-domestk .smalairport{display:block;}
+.round-domestk .airlinename{line-height:11px;padding:0}
+.round-domestk .m-b-0.text-center > strong{font-size:11px;line-height:0}
+.full_smal_tab{padding:0 0 10px}
+.exploreall li a{padding:10px}
+.nav-tabs.tabstab > li > a{padding:0;}
+.allys .col-xs-4{width:100%}
+.threey{margin:5px 0}
+.centerload{min-width:0;width:95%;padding:10px}
+.propopum{width:450px}
+.padflt.widfty{padding:0;text-align:center}
+.allboxflt .airlblxl{font-size:14px}
+.tab_pasnger{width:100%}
+.ontyp{padding:0}
+.fligthsdets{margin:10px 0}
+.madgrid.forhtlpopover{margin:5px 0;width:100%}
+#tour_search_result .madgrid.forhtlpopover{margin:0;}
+.rowresult.col-xs-4 .madgrid.forhtlpopover{height:310px;}
+.mapviewhtlhotl.fa{transform:scale(1)}
+.map_mobile_dets{display:block;float:left;margin:20px 0 0;overflow:hidden;width:100%}
+.tab_htl_detail{width:100%}
+.padritside{float:left;margin:15px 0 0;padding-left:0;width:100%}
+.fulldetab.shdoww{box-shadow:none}
+.romlistnh{background:none;padding:0}
+.colrumpad .bookallbtn{width:100%}
+.priceflights.smalwise{font-size:13px}
+.full_log_tab{width:100%}
+.bustprice{font-size:16px}
+.timelabelf{font-size:14px}
+.durtnlabls,
+.bookbuss .bookallbtn{font-size:12px}
+.bus_preloader .relativetop{margin:100px 0 0}
+.only_bus_book .alldiscrpo{text-align:left}
+.bokinstts .col-xs-3{width:33.33%}
+.useralldets .rowother{width:100%}
+.trow.tblhd{display:none}
+.trow .tblpad{display:block;float:left;padding:5px;width:100%}
+.lavltr_mgc{color:#666;display:block;font-size:12px}
+.lavltr{color:#333}
+}
+@media(max-width:767px){.mobresdv{font-size:30px;}
+.modifysrch{min-width:32px;border:1px solid #fff;}
+#roomCancelModal .modal-content{width:80%;margin:40px auto 0;}
+.multi_city_container .placerows .col-xs-6, .full_smal_tab{padding:0 2px;}
+.tabspl.forbusonly{padding:10px 0;}
+.filterforall.addtwofilter .sorta.asc::after {margin-right: 0px;}
+}
+@media(max-width:650px){.dom_tab{display:block;}
+.bookbus_mobile { display: block !important;  position: absolute; opacity: 0; left: 0px; right: 0px; width: 100%; height: 53px; top: 0px; bottom: 0px; z-index: 99; }
+.round-domestk .rondnone{width:100%;}
+#t-w-i-2{display:none;}
+.romsfst .noof_ave{float:none;text-align:center;}
+.romsfst #cancel_H0555953_0{text-align:center;float:none;}
+.romsfst .romtypefrecan{text-align:center;}
+.romsfst .rombtndv{float:right;}
+.htlbkbtn .htlbkftsz{padding:6px 0;font-size:20px;}
+.romtypefrecan p{font-size:14px;}
+.noof_ave{font-size:14px;}
+.info-box-icon{height:74px !important;}
+.view_type{}
+.row_container .info-box{margin:2px 0px;}
+.bookallbtn{font-size:14px;padding:5px;}
+.btn_dates{padding:6px 4px;}
+.info-box{min-height:74px;}
+.search-result .container-fluid{padding:0px !important;}
+.content-wrapper .content{padding:0px !important;}
+/* .addtwofilter .hide_lines{display:none} */
+.addtwofilter .sortli{width:33.33% !important;}
+.topalldesc .allboxflt .airlblxl{font-size:12px}
+.full_dets_aps{width:100%}
+.newloginsectn .celoty{display:block;float:left;vertical-align:middle;width:100%}
+.continye{margin:15px 0 10px;}
+.cntgust{float:left;width:100%;}
+.orround{margin:20px auto}
+.leftde_flt{float:left;width:auto}
+.none_rit{float:right;width:auto}
+.customteam2.nav-tabs.customteam li a strong{display:none}
+.nav-tabs.customteam.customteam2{max-width:50px}
+.customteam2.nav-tabs.customteam li a{padding:10px}
+.pxconf{font-size:12px}
+.bokrname{font-size:16px}
+.divinsidefltr { width: 100%; }
+.topmisty{margin:0 0 5px; display: none;}#top-sort-list-1.topmisty{margin:0 0 5px; display: block;}
+}
+@media(max-width:620px){.romsfst .noof_ave{text-align:center;float:left;padding-bottom:0;}
+.romsfst .noof_ave{text-align:center;float:left;}
+.romsfst .shwrmsdv{float:left;width:100%;text-align:center;}
+.htladdet span{font-size:22px;}
+.marhtldet .locadres{width:100%;}
+.htlratpz{float:left;margin:10px 0 0;}
+}
+@media(max-width:600px){.romsfst .noof_ave{text-align:center;}
+.romsfst #cancel_H0227265_0{float:left;width:100%;text-align:center;}
+.adreshotle{font-size:13px;}
+.canplyto{font-size:13px;}
+.rating span.star::before, .rating-no span.star::before{font-size:14px;margin:4px 3px 0 0;display:block;}
+.shtlnamehotl{width:75%;font-size:15px;}
+.modifysrch{border:none;}
+.smal_udayp .insidesame{display:block;padding:0;text-align:right}
+.smal_udayp .durtntime{font-size:13px;line-height:12px}
+.round-domestk .wayeght{width:70%}
+.round-domestk .wayfour{width:30%}
+.quarter_wdth{width:25%}
+.round-trip .quarter_wdth{width:18%}
+.fligthsmll img{width:34px;max-width:34px;}
+.detailsflt{font-size:13px}
+.hotel_search_results .priceflights{font-size:20px;}
+.prcstrtingt{font-size:12px}
+.bookallbtn{font-size:13px;padding:5px 2.5px;}
+.fifty_rums{width:50%}
+.hundrd_rums{width:100%}
+.padinnerntb{padding:0}
+.canrumpoly{margin:0}
+.lettrfty,
+.padinnerntb.htlfac_lity,
+.hote_plcys{padding:10px}
+.htlfac_lity .col-xs-4{width:100%}
+.full_room_buk{width:100%}
+.sckint{margin:0}
+.layoutonly{display:block;overflow-x:scroll;overflow-y:hidden;padding:0;width:600px}
+.full_fiftys{margin:0 0 10px;width:100%}
+.qurter_wdth{width:75%}
+.smal_width_hr{width:25%}
+.paspertedit .margpas{width:100%}
+.xlbook{display:block;float:left;padding:10px;width:100%}
+.xlbook.htlimage_xl{width:auto}
+}
+@media(min-width:651px) and (max-width: 767px){
+.round-domestk .durtntime {font-size: 11px !important;}
+#flight_search_result .round-domestk .n-r-t { font-size: 9px;}
+#flight_search_result .round-domestk .detailsflt {width: 30%;}
+.round-domestk .mrinfrmtn > i {width: 70%;}
+#flight_search_result .allsegments {padding: 10px 5px;}
+}
+@media(max-width:550px){.tpimage, .tpimage img{height:200px;}
+.mfulwdth { width: 100% }
+.sorta .fal {display: none;}
+.placenameflt{font-size:14px;line-height:21px;color:#fff;}
+.full_bus_sec .placenameflt{line-height:15px;}
+.datein, .boxlabl{color:#fff}
+#trasfer .formlabel{float:left;}
+.rowresult.col-xs-4{width:50% !important;}
+.waywy .farhomecal{line-height:23px;min-width:103px;display: none;}
+.searchsbmt_speak { display: none; }
+.topssec{background:#001832 none repeat scroll 0 0 !important;}
+.onlmob{display:block;}
+.jetimg img{max-width:34px;}
+.clikdiv{display:block;overflow:hidden;padding:10px 10px;}
+.smalairport_code{display:block;font-size:14px;margin-top:4px;}
+.topalldesc{padding:5px !important;margin-top:10px !important;}
+.xcel{display:block !important;width:100%;}
+.full_room_buk, .rhttbepa{padding:0px !important;margin-top:10px;}
+.sortli{width:20%;}
+#slidebarscr{position:relative !important;}
+#nxtbarslider{position:relative !important;}
+.n-r-t{text-align:right;padding-right:2px;font-size: 11px;}
+.fredivs{padding:10px !important;}
+.portnme{font-size:13px}
+.alldownsectn .container{padding:0px 4px !important;}
+.flight_booking_desc .topalldesc .segment_seg{display:none;}
+.flight_booking_desc .topalldesc{margin:10px 0px 0px;padding:5px;}
+.jetimg{text-align:left !important;}
+.alldiscrpo{text-align:left !important;}
+.width_adjst .col-xs-6{padding:2px 0px;}
+.logininwrap, .loginspld{margin:0px !important;}
+.fligthdets{color:#ffffff !important;float:right;background:#2d3e52;padding:5px;border-radius:2px;position:absolute;right:0px;top:15px;}
+.secndblak{background:none;}
+.homepage-video{display:none;}
+.searcharea{padding:20px 0px !important;background:#1e5799;background:-moz-linear-gradient(top, #1e5799 0%, #183d67 100%);background:-webkit-linear-gradient(top, #1e5799 0%,#183d67 100%);background:linear-gradient(to bottom, #1e5799 0%,#183d67 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e5799', endColorstr='#183d67',GradientType=0);}
+.searcharea .container{padding:0px 0px;}
+.allformst .nav-tabs.tabstab > li > a label{font-size:11px !important;}
+#supersized{display:none;}
+.travlrs .fa{margin:0 5px;color:#999999;line-height:11px;font-size:16px;}
+.lablform{color:#fff;font-size:16px;margin:5px 0 6px;}
+.secndblak .normalinput{box-shadow:none;border:none;border-bottom:2px solid #7695bb;background:none !important;color:#fff;padding:0 10px 0 41px;font-size:17px !important;border-radius:0 !important;}
+.secndblak .totlall{background:none;border:none;border-bottom:2px solid #7695bb;font-size:17px;width:100%;color:#fff;border-radius:0px;}
+.labladvnce::after{color:#fff;}
+.totlall::after{background:none;bottom:0;color:#fff;}
+.holyday_selct{color:#fff;font-size:17px;padding:0 10px;background:none;border:none;border-bottom:2px solid #7695bb;border-radius:0px;}
+.mobile_width{width:100% !important;}
+.normalinput::placeholder{color:#fff;}
+.deprtures::before, .destinatios::before, .datemark::before, .plcemark::before, .nitmark::before, .locatiomarker::before{font-size:18px;color:#7695bb;}
+.secndblak .selctmark::after, .secndblak .selectedwrap::after{background:#1c4f89;color:#fff;height:40px;top:0;}
+.secndblak .padselct{background:none;border:none;border-bottom:2px solid #7695bb;color:#fff;font-size:17px;border-radius:0px !important}
+.normalinput::-webkit-input-placeholder{color:#7695bb;font-size:15px;}
+.normalinput::-moz-placeholder{color:#7695bb;font-size:15px;}
+.normalinput:-ms-input-placeholder{color:#7695bb;font-size:15px;}
+.normalinput:-moz-placeholder{color:#7695bb;font-size:15px;}
+.sidebord{border-right:none;}
+.nav-tabs.tabstab{border:medium none;margin:0px auto 0px auto;display:table;text-align:center;width: 576px;}
+strong.new_deal {right: -18px;top: -4px;padding: 4px 2px;width: 33px;}
+.searchsbmt{background:#fb860e;border:1px solid #fb860e;color:#fff;font-size:16px;line-height:42px;padding:0 20px 0 0;position:relative;text-transform:uppercase;width:100%;}
+.waywy{display:table;margin:0px auto 20px auto;}
+.wament.active{background:#fb860e;color:#fff;}
+.nav-tabs.tabstab li.active{border:none;}
+.continye{width:100% !important;}
+.bookcont{width:100%;border-radius:0px;font-size:18px;margin-bottom:20px;}
+.flight_booking_desc .topalldesc .bokkpricesml{text-align:left;}
+.contbk, .temsandcndtn{padding:10px 10px;background:#f5f5f5;}
+.contcthdngs{font-size:14px;}
+.totlbkamnt{color:#fc901b;}
+.kindrest{padding:0px 5px;}
+.payblnhmxm{font-size:14px;}
+.travlrs{padding:0px 0px 7px 0px;}
+.smal_udayp{margin-top:0;width:20%;}
+.inptalbox .spllty{width:100% !important;}
+.padpaspotr .fligthsdets{padding:0px;}
+.rowresult .madgrid{position:relative;}
+.ontyp{margin-bottom:15px;}
+.wayprice{width:100%;}
+.wayprice .insidesame{padding:0px !important;}
+.amnterbig{color:#fc901b;font-size:24px;}
+.farestybig{font-size:19px;line-height:24px;color:#000;}
+.waybook{display:none;}
+.round-domestk .airlinename{font-size:13px;}
+.labltowr{font-size:15px !important;color:#fff;padding:10px 5px;background:#0095ce;margin:0px !important;}
+.flight_booking_desc .padpaspotr .flitab1 .labltowr{background:none !important;color:#00a9d6 !important;}
+.pasngrinput{padding:0px !important;}
+.labltowr strong{color:#fff;margin-left:4px;}
+.wayeght{padding-left:0!important;padding-right:0!important;position:relative !important;top:0px !important;width:100% !important;}
+.sorta.asc::after{display:none;}
+.city_code{display:none;color:#2d3e52;overflow:hidden;font-size:13px;text-align:center;font-weight:500;}
+.wayprice .insidesame{float:right;}
+.stop-value{display:block;font-size:13px;}
+.reptallt{border-bottom:1px solid #eee;display:block;margin:0px 0 5px 0px;overflow:hidden;padding:5px 0;font-size:15px;line-height:20px;}
+.smalairport{display:none;}
+.round-domestk .m-b-0.text-center > strong{font-size:11px}
+.madgrid{background:#fff none repeat scroll 0 0;border:1px solid #efefef;box-shadow:none;display:block;margin:1px 0;padding:5px 0px;}
+.btmfooter{display:none;}
+.round-trip .allsegments:nth-child(odd){background:#ffffff;}
+.round-trip .allsegments:nth-child(even){background:#ffffff;}
+.priceanbook{margin-top:6px;}
+.round-trip .priceanbook{margin:32px 0px 0px;}
+.contryname{color:#fff;}
+.smal_udayp .durtntime{display:block;}
+.smal_udayp .cabinclass{display:none;}
+.stop_image img{width:100%;}
+.wayfour.full_same{position:absolute;top:9px;right:0px;width:auto !important;}
+.insidecurent .flightimage{width:40%;}
+.insidecurent .listfull{width:60%;}
+.insidesame{display:table;margin:0 auto;padding:8px 5px;float:none;padding-right:10px !important;}
+.btn-flat.booknow{width:94%;border-radius:0px;margin:auto;padding:6px;}
+.insidecurent .timlbl{font-size:14px;line-height:37px;}
+.fixincrmnt.fixed .insidecurent .timlbl{font-size:12px;}
+.insidecurent .text_algn_rit{text-align:center;}
+.section_top{background:#2d3e52;}
+.mobile_hide{display:none !important;}
+.resmagfix{display:none;}
+.phnumr, .mailadrs, .mailadrs .fa{color:#fff;}
+.userimage{background:none !important;}
+.modinew, .modifysrch{background:#0096cf;color:#fff;}
+.hotel_search_results .vluendsort .mobile_none{display:none;}
+.adreshotle, .tripad{display:none;}
+.search-result{padding:5px 0px 20px 0px;}
+.search-result .container{padding:0px 2px !important;}
+.gift-tag{left:3px;right:inherit !important;top:12px;}
+#hotel_bottom{display:none !important;}
+.gift-tag::before{left:-6px;right:inherit !important;top:5px;}
+.gift-tag::after{content:'';position:absolute;right:0px;left:inherit !important;top:0px;width:0;height:0;border:15px solid transparent;border-right:none;border-left:none !important;}
+.allresult.map_open .result_srch_htl .listfull .shtlnamehotl{font-size:16px;padding-top:5px;padding-bottom:4px;}
+.allresult.map_open .hotel_map{transition:all 300ms ease-in-out 0s;width:100%;height:100%;position:absolute;}
+.romsfst .noof_ave, .noof_view{display:none;}
+.allresult.map_open .result_srch_htl{width:100%;position:fixed;z-index:99999;bottom:0px;height:138px;overflow:inherit;}
+.allresult.map_open .result_srch_htl .listimage{width:33.33333333% !important;}
+.allresult.map_open .result_srch_htl .listfull{width:66.66666667% !important;}
+.allresult.map_open .result_srch_htl .listfull .preclsdv{display:block !important;}
+.allresult.map_open .result_srch_htl .bookallbtn{display:none;}
+.allresult.map_open .result_srch_htl .sidepricewrp .priceflights{float:right;}
+.allresult.map_open .result_srch_htl .madgrid.forhtlpopover{margin:0px !important;}
+.allresult.map_open .result_srch_htl .owl-carousel .owl-item{height:225px;}
+.htladdet span{font-size:16px;color:#0096cf;}
+.romsfst .romtypefrecan{text-align:left;font-size:11px;width:auto;}
+.romtypefrecan p{font-size:11px;padding-left:5px;}
+.romsfst .shwrmsdv{float:right;font-size:11px;width:auto;margin:0px;display:inline;text-align:left;color:#1b8236;}
+.romtyprice{color:#fc901b;font-size:18px;}
+.romsfst{float:left;width:100%;padding:5px 10px;overflow:hidden;}
+.mobile_advisor{float:right;display:block !important;}
+.mobile_bg{background:#39a957;}
+.insidemyt{width:100%}
+.marhtldet .locadres{white-space:normal;width:90% !important; overflow: visible;}
+.bookallbtn{background:#fc9526 none repeat scroll 0 0;border:1px solid #fc9526;border-radius:0px !important;font-size:15px;padding:4px 0px;}
+.round-domestk .bookallbtn{padding:7px 0px !important;max-width: none !important;}
+.bookallbtn{width:84px !important;float:right !important;margin:0px !important;}
+.romsfst .romtyprice{float:left;text-align:left;display:inline-block;margin:0 auto;line-height:24px;}
+.romsoutdv{padding:4px;}
+.romconoutdv{opacity:1 !important}
+.romsfst .rombtndv{float:right;text-align:center;margin:0px auto 0;display:inline-block;line-height:20px;width:20%;}
+.htlrmsdv{font-size:12px;}
+.show-more{text-align:right;display:block !important;padding-right:15px;}
+.show-more a{color:#fff;font-size:12px;cursor:pointer;padding:3px 10px;display:inline-block;text-align:right;background:#39bffb;margin-bottom:10px;margin-top:10px;}
+.show-rooms{text-align:right;display:block !important;float:left;width:100%;padding-right:15px;}
+.show-rooms a{color:#fff;font-size:12px;cursor:pointer;padding:3px 10px;display:inline-block;text-align:right;background:#39bffb;margin-bottom:10px;margin-top:10px;}
+.short-text{overflow:hidden;height:65px;}
+.short-text1{overflow:hidden;height:355px;}
+.full-text{height:auto;}
+.mobilepad{padding:0px 4px !important;}
+.romconoutdv .col-xs-6{width:100%;}
+.noof_adult .fa{padding:0 3px 0 0;font-size:17px;}
+.noof_adult{width:auto;padding:0px;font-size:12px;padding-right:22px;}
+.noof_adult .fa{font-size:12px;}
+.romtypestd{padding-bottom:5px;font-size:17px;color:#191919;font-weight:500;}
+#hotel_top .item{padding:0;color:#fff;text-align:center;width:100%;position:relative;background:#d0d0d0;height:225px;}
+.amthtlrs{font-size:28px;}
+.fulldetab .nav-tabs > li{width:33.33%;}
+.fulldetab .nav-tabs > li > a{font-size:15px;}
+.htldetailspage{padding-bottom:10px;}
+.htlbkbtn{float:left;width:100%;padding:0px;background:#fff;overflow:hidden;box-shadow:0 0 5px 0 rgba(0,0,0,.11);}
+.htlbkbtn .htlbkftsz{padding:12px 0;font-size:20px;border-radius:0px;}
+.amthtlrsstd{font-size:24px;padding:0px;}
+.htlamtnyt{padding-bottom:10px;}
+.htlmapdtls{position:absolute;top:0px;right:0px;font-size:23px;height:40px;width:40px;line-height:40px;text-align:center;background:rgb(252, 144, 27);color:#ffffff;border-radius:0px;}
+.tab_htl_detail .responsive-tabs{display:none !important;}
+.tab_htl_detail .tab-content>.tab-pane{display:block !important;}
+.tab_htl_detail .innertabs{margin-bottom:5px;}
+.triexcimg img{max-width:107px;width:107px;}
+.filter_tab{background:#0095ce;border-right:none;box-shadow:none;color:#fff;cursor:pointer;float:left;font-size:22px;margin-right:0px;text-align:center;padding:3px 15px;width:50px;height:50px;border-radius:50%;line-height:48px;left:35px;position:fixed;bottom:58px;z-index:999;}
+.sorta .fa{display:none;overflow:inherit !important;line-height:10px !important;}
+.sorta.des::after{display:none;}
+.sorta strong{display:inline-block;font-size:12px !important;}
+.fstfooter{display:none;}
+.facltyid{font-size:13px;color:#686969 !important;}
+.htlfac_lity .col-xs-4{width:50% !important;}
+.facltyid .glyphicon{color:#b7b7b7 !important;}
+.romtyprice .ninenyt{font-size:15px;display:inline;padding-left:5px;color:#cee4d4;}
+.mobile_view_header{display:block !important;font-size:13px;color:#c8ffd7;color:#0096ce;padding:10px;font-weight:bold;float:left;}
+.romsfst .romtyprice{color:#fff !important;}
+.lettrfty, .padinnerntb.htlfac_lity, .hote_plcys{padding:0px 10px 10px 10px;}
+.lettrfty{line-height:21px;font-size:14px;}
+#hotel_top img{height:100%;max-height:inherit;display:block;max-width:100%;position:absolute;width:100%;left:0px;right:0px;top:0px;bottom:0px;margin:auto;}
+.offdiv{font-size:16px;color:#fff;font-weight:bold;text-align:center;}
+.width100{width:100%;padding:2px;}
+.zoom .popContent{-webkit-transform:scale(.7);-moz-transform:scale(.7);-ms-transform:scale(.7);-o-transform:scale(.7);transform:scale(.7);-webkit-transition:all .3s;-moz-transition:all .3s;-ms-transition:all .3s;-o-transition:all .3s;transition:all .3s;opacity:0}.popShow.zoom .popContent{-webkit-transform:scale(1);-moz-transform:scale(1);-ms-transform:scale(1);-o-transform:scale(1);transform:scale(1);opacity:1}.slideLeft .popContent{-webkit-transform:translateX(20%);-moz-transform:translateX(20%);-ms-transform:translateX(20%);transform:translateX(20%);opacity:0;-webkit-transition:all .3s cubic-bezier(.25, .5, .5, .9);-moz-transition:all .3s cubic-bezier(.25, .5, .5, .9);transition:all .3s cubic-bezier(.25, .5, .5, .9)}.popShow.slideLeft .popContent{-webkit-transform:translateX(0);-moz-transform:translateX(0);-ms-transform:translateX(0);transform:translateX(0);opacity:1}.popBodyWrap{max-height:450px;overflow-y:auto}.travellerMealOpt{border-bottom:1px solid #e6e6e6;padding-top:10px;padding-bottom:10px}.divScroll{background:#f5f5f5;max-height:150px;overflow-y:auto;-webkit-box-shadow:inset 1px 1px 3px 0 rgba(50,50,50,0.3);-moz-box-shadow:inset 1px 1px 3px 0 rgba(50,50,50,0.3);box-shadow:inset 1px 1px 3px 0 rgba(50,50,50,0.3);padding:10px;margin-top:10px}.divScroll li{display:inline-block;padding-bottom:10px;width:100%}@media all and (min-width:768px) and (max-width:991px){.popModal.xlarge{max-width:700px}}@media all and (max-width:767px){.popModal{position:fixed;top:10%;-webkit-transform:translateX(-50%) translateY(0);-moz-transform:translateX(-50%) translateY(0);-ms-transform:translateX(-50%) translateY(0);-o-transform:translateX(-50%) translateY(0);transform:translateX(-50%) translateY(0);max-height:85%;overflow-y:auto}.popContent .popBody{max-height:100%}}body{background:#fff;color:#333;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.fr{float:right}.fl{float:left}.dib{display:inline-block}.dn{display:none}.db{display:block}a{color:#166bd3;cursor:pointer;outline:none;text-decoration:none}html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,cite,code,del,dfn,em,img,ins,kbd,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,button,menu,nav,output,section,summary,time,mark,audio,video,select{margin:0;padding:0}.ico12{font-size:12px}.ico17{font-size:17px}.padTB10{padding-top:10px;padding-bottom:10px}
+.padB10{padding-bottom:0px}
+.card{margin-bottom:0px;border:1px solid #ddd;}
+.padT10{padding:7px 0px;}
+.marginTM5{margin-top:-5px}
+.marginR5{margin-right:5px}
+.marginB20{margin-bottom:20px}
+.fb{font-weight:bold;font-style:normal}
+.padR10{padding-right:10px}
+.padB20{padding-bottom:20px}.padB5{padding-bottom:5px}.marginL5{margin-left:5px}.fareRulesTable .button.green{background:#2bac36;color:#fff !important}.fareRulesTable .button{cursor:pointer;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;text-align:center;color:#fff;border:0;-webkit-appearance:none}.txtTransUpper{text-transform:uppercase}.fareRulesTable .button.red{background:#f00;color:#fff}.fareRulesTable a.button:hover{color:#fff}.padT5{padding-top:5px}.lh1-5{line-height:1.5}.black{color:#000}.ico11{font-size:11px}a.active{}.clearfix:before,.clearfix:after{display:table;content:" "}.clearfix:after{clear:both}.tab a{border:1px solid #d8d8d8;float:left;width:105px;padding:10px;position:relative;margin-left:-1px;text-align:center}.tab a.active{border-bottom:1px solid #fff;background-color:#fff;margin-bottom:-1px;position:relative;z-index:3}.tabFl{border-top:1px solid #d8d8d8;position:relative;top:-2px;background-color:#fff}.popContent .popHdrTab{border-bottom:none;padding-bottom:0}.cstable{display:table;border-collapse:collapse;width:100%}.csrow{display:table-row}.cscell{display:table-cell;padding:5px;border:1px solid #d8d8d8}.fareRulesTable .frtable{width:47%;float:left;margin-bottom:20px}.fareRulesTable .frtable:nth-child(even){float:right}.fareRulesTable .frcell{padding:10px;width:50%}.Title{display:table-caption}.xssmall{font-size:10px;padding:3px 5px}.csColSpan{position:absolute;left:0;right:0;width:100%}.cstablewrapper{position:relative}.tableFare .cscell{padding:10px}.tableBrkUP{background-color:#f4f4f2}.tableBrkUP .cscell{border:none;border-right:1px solid #d8d8d8;border-left:1px solid #d8d8d8}.tableBrkUP .cscell:nth-child(1){padding-left:15px}.tableFare .cscell:nth-child(1),.tableBrkUP .cscell:nth-child(1),.fareRulesTable .cscell:nth-child(1){width:50%}.tableFare .cscell:nth-child(2){text-align:right}.baggage .cscell{padding:10px}.flight-frImages{max-width:100%;max-height:30px}.popContent .popBody.poprulesFare{height:410px}.loaderPos{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);float:left}@-webkit-keyframes load3{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes load3{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.spinner_2 .loader{font-size:7px;text-indent:-9999em;width:7em;height:7em;border-radius:50%;background:#2d67b2;background:-moz-linear-gradient(left, #2d67b2 10%, rgba(255,255,255,0) 42%);background:-webkit-linear-gradient(left, #2d67b2 10%, rgba(255,255,255,0) 42%);background:-o-linear-gradient(left, #2d67b2 10%, rgba(255,255,255,0) 42%);background:-ms-linear-gradient(left, #2d67b2 10%, rgba(255,255,255,0) 42%);background:linear-gradient(to right, #2d67b2 10%, rgba(255,255,255,0) 42%);position:relative;-webkit-animation:load3 1.4s infinite linear;animation:load3 1.4s infinite linear;-webkit-transform:translateZ(0);-ms-transform:translateZ(0);transform:translateZ(0);overflow:hidden}.spinner_2 .loader:before{width:50%;height:50%;background:#2d67b2;border-radius:100% 0 0 0;position:absolute;top:0;left:0;content:''}.spinner_2 .loader:after{background:#ffffff;width:75%;height:75%;border-radius:50%;content:'';margin:auto;position:absolute;top:0;left:0;bottom:0;right:0}.rulesTerms{list-style-type:disc;margin-left:24px;font-size:12px;line-height:1.5}.rulesTerms li{padding-top:5px}
+@-webkit-keyframes placeHolderShimmer{0%{background-position:-468px 0}100%{background-position:468px 0}}
+@keyframes placeHolderShimmer{0%{background-position:-468px 0}100%{background-position:468px 0}}
+.animated-background{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-name:placeHolderShimmer;animation-name:placeHolderShimmer;-webkit-animation-timing-function:linear;animation-timing-function:linear;background:#f6f7f8;background:#eeeeee;background:-webkit-gradient(linear, left top, right top, color-stop(8%, #eeeeee), color-stop(18%, #dddddd), color-stop(33%, #eeeeee));background:-webkit-linear-gradient(left, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);background:linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);-webkit-background-size:800px 104px;background-size:800px 104px;max-height:96px;position:relative}.opacityOut{-webkit-animation:fadeout 10s 1;-moz-animation:fadeout 10s 1;-o-animation:fadeout 10s 1;animation:fadeout 10s 1;z-index:9}.bgGreen{background-color:#62bc00;-webkit-box-shadow:-1px 2px 3px #b3b3b3;-moz-box-shadow:-1px 2px 3px #b3b3b3;box-shadow:-1px 2px 3px #b3b3b3}.ticBg{background-color:#76a544;padding:5px;border-radius:50%}@-webkit-keyframes fadeout{0%{opacity:1}100%{opacity:0}}@-moz-keyframes fadeout{0%{opacity:1}100%{opacity:0}}@-o-keyframes fadeout{0%{opacity:1}100%{opacity:0}}@keyframes fadeout{0%{opacity:1}100%{opacity:0}}.action-button.bar{background-color:#5b91d7;border-bottom:5px solid #265a9d;text-shadow:0 -2px #6f9edc}.action-button:hover{-webkit-transform:translate(0, 5px);-moz-transform:translate(0, 5px);-ms-transform:translate(0, 5px);-o-transform:translate(0, 5px);transform:translate(0, 5px);border-bottom:1px solid}.action-button.animate{-webkit-transition:all .5s;-moz-transition:all .5s;-ms-transition:all .5s;-o-transition:all .5s;transition:all .5s}.action-button{position:relative;border-radius:5px;margin:1% 2%;width:96%;letter-spacing:1px;cursor:pointer;border:none;outline:none;height:41px}.progress .airload{background-color:#ff6712;background-image:linear-gradient(#ff6712, #dc5b1a);height:4px;position:relative;transition:all 2s ease-out 0s;width:inherit}.progress .airload .show_loading,.progress{height:3px;z-index:6;position:relative}.fareTable,.fareTableFooter{max-width:760px;margin:0 auto;background:#ffffff}.flexdtable{display:table;border-collapse:collapse;width:100%}.flexdtable .priceCell{background-color:#ffffff}.flexdtable .row{display:table-row}.flexdtable .cell{display:table-cell;padding:8px 5px;border:1px solid #d8d8d8;width:12.5%;text-align:center;vertical-align:middle;cursor:pointer;height:55px}.flexdtable .cell:hover{box-shadow:#5487a9 0 0 8px 1px;transition:all .3s ease-out}.flexdtable .cellHead{color:#fff;background:#2d67b2;font-weight:bold;cursor:default}.flexdtable .cellHead:hover,.flexdtable .disable:hover,.flexdtable .disable{box-shadow:none;pointer-events:none;transition:none}.flexdtable .selected{color:#fff;background:#f26722}.flexdtable .cellHead.selected span,.flexdtable .cellHead.selected small{color:#ffffff}.flexdtable .Title{display:table-caption}.flexdtable .footer{display:table-footer-group;display:block}.fareTable .flexdtable .currentRate,.currentRate{border-radius:5px;background:#2d67b2;padding:3px 6px}.fareTable .currentRate i,.fareTable .currentRate span,.currentRate i,.currentRate span{color:#ffffff}.fmtTooltip>.tip.white.flexTip{width:270px;margin-bottom:6px;z-index:8}.flex-date{width:69px}.flexdWrap.fareTable{max-width:840px}.noAction{pointer-events:none}.noPointer{cursor:default}.arrowDown{width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-top:5px solid white}.arrowDownPos{position:absolute;bottom:-14px;left:3px}.arrowRgt{width:0;height:0;border-top:5px solid transparent;border-bottom:5px solid transparent;border-left:5px solid white}.arrowRgtPos{position:absolute;right:-11px;top:4px}.fltslider-decorator-0{left:15px}.fltslider-decorator-1{right:20px}.htlimg{width:100%;height:135px}.fltCirc{border-radius:50%;border:1px solid #2d67b2}.fltHtlPrc .fltCirc{padding:5px}.fltHtlImg .fltHtlRtng{top:15px}.fltHtlImg .control{margin-bottom:0}.fltHtlRtng{right:5px}.fltHtlRtng .icon-reverse-go{background-color:#ffffff;border-radius:50%}.fltHtlRtng .ratingNum{border:1px solid #f26722;padding:1px 5px;background-color:#ffffff}.fltHtlWrp{width:257px;float:left;margin-right:35px}.fltHtlWrp .control__indicator{border-color:#ffffff;border-width:1px;width:25px;height:25px;top:10px}.fltHtlWrp .control input:checked~.control__indicator{background:#f26722;border-color:#f26722}.fltHtlWrp .control--radio .control__indicator:after{left:7px;top:2px;width:7px;height:14px}.fltplusHtl .fltSliderWrap{width:100%}.fltplusHtl .control__indicator{left:8px}.outLnBut{border:1px solid #2e69b3;padding-top:7px;padding-bottom:7px}.outLnBut:hover{background-color:#2e69b3;color:#ffffff}.flthtlSumry{box-shadow:0 5px 5px -5px #9c9898;position:relative;border-radius:0}.flthtlSumry .fltCirc{border-color:#000}.txtCap{text-transform:capitalize}.fltHtlRmWrp{width:558px}.fltHtlRmWrp .fltCirc{border:none;background-color:#ffffff;opacity:.8}.fltHtlRmWrp .fltslider-decorator-0{left:5px}.fltHtlRmWrp .fltslider-decorator-1{right:5px}.fltHtlRmWrp .control__indicator:after{display:block;border-color:#1e9228}.fltHtlRmWrp .control__indicator{left:3px;top:4px;border-color:#ffffff}.fltHtlRmWrp .outLnBut{border-color:#1e9228;color:#1e9228}.fltHtlRmWrp .outLnBut:hover{background-color:#1e9228;color:#ffffff}.chngRmImg{width:100%;height:289px}.fltHtlThum{width:93px;float:left}.fltHtlThum img{width:95%;height:57px}.imgAbsTxt{background:none repeat scroll 0 0 rgba(0,0,0,0.4);bottom:4px;left:0;padding:10px;width:100%;position:absolute}.rmImg{width:126px;float:left}.rmImg img{width:100%;height:82px}.rndTrpRm{border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;-webkit-box-shadow:0 0 10px rgba(0,0,0,0.1);-moz-box-shadow:0 0 10px rgba(0,0,0,0.1);box-shadow:0 0 10px rgba(0,0,0,0.1);float:left;width:100%}
+.rndTrpRm .fltTcktVoucher{box-shadow:none;border-bottom-left-radius:0;border-bottom-right-radius:0}.svHtl{bottom:4px;right:0}.ltgreenBg{background-color:#7ed321}
+.fulloading{display:none;}
+.avlhtls{font-size:17px !important;}
+.mapviewhtlhotl.fa{display:none;}
+.htl_spr li span{display:block !important;}
+.htl_spr li{background:none;float:left;margin:0px;display:block;padding-left:18px;color:#148819 !important;width:auto !important;position:relative;padding-right:5px;}
+.htl_spr li:before{content:"\f00c";position:absolute;font-family:'Font Awesome 5 Pro';left:4px;}
+.hotel_search_results .vluendsort .mobile_width{width:100% !important;padding:0px 0px !important;}
+.vlulike, .sorta{border-right:1px solid #d7d7d7 !important;line-height:32px;padding-left:3px;}
+.mobresdv{line-height:36px;}
+.map_tab, .list_tab{background:none;background:#2d3e52;border-right:none;display:block;box-shadow:none;color:#fff;cursor:pointer;float:left;font-size:18px;line-height:35px;margin-right:0px;text-align:center;padding:3px 12px;width:37px;height:34px;border-radius:0px;line-height:29px;right:0px;position:absolute;bottom:0px;}
+.map_tab a, .list_tab a{display:block;width:100%;color:#fff;}
+.resultalls .colrit{width:100% !important;}
+.coleft{background:#fff none repeat scroll 0 0;box-shadow:0 0 10px -5px #000;left:0;position:fixed;top:0px;width:50%;z-index:100;width:100% !important;z-index:999999;height:100%;overflow:scroll;}
+.policy_text{font-size:13px;}
+.filtersho{background:none repeat scroll 0 0 #2d3e52;}
+.filtersho::after{color:#fff;}
+.filt_map{width:100%;position:fixed;bottom:0px;display:block !important;z-index:9999;}
+.starrtinghotl{padding:0px !important;top:0 !important;}
+.rating span.star::before, .rating-no span.star::before{font-size:13px;margin:0 2px 0 0;}
+.result_srch_htl .sidenamedesc .width70, .result_srch_htl .sidenamedesc .width30{width:100% !important;}
+.result_srch_htl .sidenamedesc .width30{padding:0;}
+.sortul{border:none !important;background:#f8f4fc;width:100%;}
+.bigtimef{font-size:15px;line-height:normal;}
+.comn_close_pop{background:#eee none repeat scroll 0 0;border-radius:30px;color:#f2500a;cursor:pointer;font-size:24px;height:30px;line-height:30px;position:absolute;right:0px;text-align:center;top:0px;width:30px;}
+.priceflights{color:#fc901b;font-size:15px;padding-right:5px;}
+.shtlnamehotl{width:90%;font-size:15px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:block;}
+.hotel_search_results .container#page-parent{padding:0px !important;}
+.allresult{margin:0px !important}
+.preclsdv{margin:3px 0 6px;}
+.tripad{float:left;padding:10px 0;}
+.mwifdiv{width:100%;float:left;padding:0;}
+.celhtl.width30{padding:0px 0;}
+.preclsdv b{font-size:13px;}
+.view_type{font-size:14px;}
+.hotel_search_results .priceflights{font-size:20px;}
+.hoteloctnf{position:absolute;right:0px;font-size:14px !important;display:none;}
+.hoteloctnf .fa{height:25px;width:25px;border:1px solid #0096cf;text-align:center;line-height:24px;border-radius:100%;background:#0096cf;color:#fff;}
+.madgrid.forhtlpopover{background:#fff !important;}
+.canplyto .fa{font-size:10px !important;height:16px !important;width:16px !important;line-height:15px;}
+.fulnine .col-xs-3{width:50%}
+.hidesocial{display:none}
+.topa{border:0 none;margin-left:10px;padding:0}
+.iconcmn{display:table;float:none;height:50px;margin:0 auto;/* overflow:hidden; */width:40px}
+.roomcount{left:0;right:0;position:fixed;top:0px !important;height:100%;overflow-x:scroll;width:100%;z-index:100000;max-width:none !important;}
+.mobile_adult_icon{display:block;color:#636363;padding:10px 10px;text-align:center;background:#f7f7f7;box-shadow:0px 0px 10px 0px #bfbfbf;}
+.mobile_adult_icon .fa{display:block;font-size:23px;margin-top:10px;}
+.oneroom.fltravlr .celroe, .roomrow .celroe{display:block;padding:5px;vertical-align:middle;margin:0px auto;text-align:center;color:#2d3e52;}
+.perhldys, .htldeals, .ychoose, .customer_section, .intersting_facts, .top_airline, .topAirlineOut, footer::before{display:none;}
+.roomone{background:none repeat scroll 0 0 #ff9800;margin-top:15px;}
+.flight_chnge {top: 64px;}
+#modify .flight_chnge {top: 45px;}
+.normalsel.padselctsmal{color:#333;}
+.oneroom{display:block;padding:0px;}
+.countmore .form-control{border:none;box-shadow:none;font-size:20px !important;color:#2196F3;}
+.done1.comnbtn_room1{display:block;float:left;width:100%;}
+.countmore .btn-default{border:1px solid #ddd;margin: 0 !important;border-radius:50% !important;height:40px;text-align:center;line-height:20px;background:#f3f3f3;margin-right:0px !important;width:40px !important;}
+.roomcount::before{right:auto;left:10%}
+.alltwobnd .imagesmflt{margin-right:0;text-align:center;width:100%}
+.alltwobnd .flitsmdets{text-align:center;width:100%}
+.inboundiv.seg-1{padding:0}
+.inboundiv.sidefare{background:#f6f6f6 none repeat scroll 0 0;margin:20px 0 0}
+.register-box-body{width:100%;padding:0}
+.altpopup{width:420px}
+.round-domestk .madgrid{margin:1px 0px}
+.round-domestk .insidecurent .sidepricebig{font-size:13px}
+.round-domestk .sidepricebig strong{font-size:12px;margin-right:0}
+.international_passport_content_div .spllty{width:100%}
+.spllty.infant_dob_div{width:100%}
+.sidenamedesc{display:block}
+.hotel_search_results .innd{max-height:none;min-height:0}
+.hotel_search_results .bookallbtn.splhotltoy{float:right;margin:0;display:none;}
+.hotel_search_results .priceflights{float:right;text-align:right;font-size:20px;margin:0 !important;}
+.imagehtldis{height:137px;}
+.imagehtldis img{min-height:120px;height:137px;}
+.innd{padding:0 10px 0;}
+.vlulike{font-size:12px;line-height:32px !important;}
+.sidepricewrp{margin:0px 0;padding:0 10px}
+.priceflights.eachroomprice{font-size:14px}
+.full_bus_sec, .fiftywirdt{width:50%}
+.inner-summary-btn.bookallbtn{display:none;}
+.bus-boarding-info-btn{display:none;}
+.cenertext .poptoup{display:block;font-size:12px;margin-top:5px;color:#0096cf;}
+.fiftywirdt1{width:100%;display:block;}
+.fiftywirdt2{width:70%;display:block;}
+.mobile_rt{float:right;width:auto;clear:both;}
+.mobile_rt .inpadbus{padding:1px 0px;}
+.inpadbus{text-align:left !important;}
+.full_bus_none{display:none}
+.butonconty .bookallbtn{width:100% !important;}
+.buseatselct{padding:8px !important;}
+.upnddown{margin:2px 0px;padding:4px !important;}
+.butonconty{margin:0px !important;}
+.layoutonly{width:350px !important;}
+.upnddown .table.table-condensed tr td{padding:2px 0px !important;}
+.upnddown{width:100%;margin:0px !important;}
+.priceanlo{padding:0px !important;}
+.layout_with{width:400px !important;}
+.icon_bus{position:absolute;right:0px;top:0px;margin:0px;float:none;}
+.icon_bus img{width:19px;}
+.pad_psger{float:left;padding:5px;width:100%;}
+.bustype{font-size:13px;color:#787878;}
+.timelabelf{font-size:13px;color:#000;}
+.full_bus_prices{width:auto;position:absolute;top:25px;right:5px;float:right;}
+.busrows{margin:3px 0px;}
+.duration{font-size:12px}
+.mobile_pad_bus{padding:0px 5px !important;}
+.desk_arrow{display:none !important;}
+.mobile_clock{display:block !important;color:#a5a5a5 !important;}
+.bustprice{font-size:16px;color:#FF9800;}
+.busername{font-size:13px;padding-right:5px;}
+.seatcnt{font-size:14px;}
+.timeicon{display:none;float:left;}
+.busername, .seatcnt{float:left;text-align:left;color:#000;}
+.seatcnt strong{display:inline;}
+.pasngrinput_enter{display:none}
+.pasngrinput_secnrews{display:block;margin-bottom:10px;overflow:hidden}
+.flling_name .col-xs-5{width:60%}
+.flling_name .col-xs-4{width:40%}
+.flling_name .col-xs-3{width:40%}
+.nav-tabs.tabssyb li a{font-size:12px;padding:0 10px}
+.round-domestk .bigtimef{font-size:16px}
+.round-domestk .smalairport{display:block;font-size:13px;}
+.mrinfrmtn{border-top:1px dashed #ddd;color:#666;display:none;font-size:11px;overflow:hidden;padding:7px 5px;text-align:left;}
+.round-domestk .priceanbook .insidesame{padding:0;float:right;padding-right:2px !important;padding-top:0px !important;}
+.bookbtlfrt{display:block;overflow:hidden;float:right;padding:0px;}
+.round-domestk .priceflights{font-size:18px;}
+.round-domestk .waybook{bottom:-31px;display:block;left:auto;position:absolute;right:0;width:70px;display:none !important;}
+.insidecurent{padding:0px !important;}
+.propopum{top: 0px !important;width: 94% !important;left: 3% !important;}
+.contfare{margin:2px;}
+.inboundiv{padding:0px !important;}
+.round-domestk .quarter_wdth{width:20%}
+.round-domestk .smal_udayp{margin-top:0;width:20%}
+.smal_udayp .insidesame{padding:10px 5px}
+#tour_search_result.result_srch_htl{margin:0;}
+#tour_search_result .rowresult.col-xs-4 .madgrid.forhtlpopover{height:300px;}
+.tab_border {overflow: hidden;overflow-x: scroll;}
+.tab_border::-webkit-scrollbar-track {-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); height: 6px;background-color: #F5F5F5;}
+.tab_border::-webkit-scrollbar {width: 10px; height: 6px;background-color: #F5F5F5;}
+.tab_border::-webkit-scrollbar-thumb {background-color: #F90; height: 6px;
+	background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent)}
+label.wament.hand-cursor > span {display: none;}
+#hotel-img-gal-box-modal .modal-header {padding: 10px;}
+#hotel-img-gal-box-modal #myModalLabel {font-size: 15px;}
+.htlimgprz { top: 32px;}
+.imghtltrpadv {display: block;clear: both; padding: 0;}
+.htmimgstr li {font-size: 13px;}
+.htlimgprz .splhotltoy {max-width: 75px !important;display: block !important;float: none !important;}
+.sghtseen .mapviw.noviews { display: none }
+#tour_search_result .rowresult.col-xs-4 .madgrid.forhtlpopover {height: auto !important;padding: 0px 0px 10px;}
+#tour_search_result .imagehtldis, #tour_search_result .rowresult.r-r-i .imagehtldis img {height: auto !important;}
+#tour_search_result .rowresult.col-xs-4 .innd {max-height: none !important;min-height: auto !important;height: auto;padding: 10px 12px 0px !important;}
+#tour_search_result .rowresult.col-xs-4 .h-name {max-height: none !important;}
+#tour_search_result .rating span.star::before, #tour_search_result .rating-no span.star::before {font-size: 13px;margin: 0 2px 0 0;}
+#tour_search_result .shtlnamehotl {font-size: 16px !important;font-weight: 500; max-height: none;}
+.rowresult.col-xs-4{width:100% !important;}
+#tour_search_result .sidepricewrp {padding: 0 10px !important;}
+#act_sldr { height: auto; }
+#activitydate {margin-bottom: 10px;}
+.chk_avl { margin-top: 10px; }
+.reviewdv {width: 20%;}
+.contdivrew1 {width: 80%;}
+.innertabs > .pad15 {padding: 5px!important;float: left;}
+.revoutdiv {padding: 0px;}
+.sghtseen .ovrimpdiv p {line-height: 24px;padding: 0;margin: 0 !important;}
+.unit.size1of4, .unit.size1of2 {width: 100%;}
+.txtR.mas.line {margin: 5px 0 !important; width: 100%;}
+.tourguidiveut .txtR .price-from {float: left;}
+.outactdiv .std {float: left;}
+.outactdiv .htladdet > span {font-size: 17px !important;line-height: 26px; }
+.rating span.star::before, .rating-no span.star::before {margin: 0 !important;}
+.quarter_wdth {width: 18%;}
+.baggage_meal_details ul li {margin-right: 0;margin-bottom: 2px;}
+.baggage_meal_details ul li a {padding: 10px 8px 10px 28px;}
+.baggage_meal_details ul li a > img { display: none;}
+.flight-tab {padding: 0;}
+ul.flight-tab li a { padding: 6px;}
+.multi_city_container .plcetogo {margin-bottom: 2px;}
+}
+@media(max-width:500px){.view_type{font-size:19px;}
+.round-domestk .insidecurent .sidepricebig{font-size:14px}
+.round-domestk .sidepricebig strong{font-size:12px;margin-right:0}
+.sepmenus{top:100px}
+.full_smal_tab{width:100%}
+.fromtopmargin.set_up{margin:0}
+.togleadvnce.open .advncebtn::after{content:"\f077"}
+.advsncerdch{float:left}
+.advsncerdch .col-xs-3{width:50%}
+.bigcaption{font-size:28px}
+.smalcaptn{font-size:18px}
+.fromtopmargin{margin-top:0}
+.topssec.fixed,
+.topssec{height:auto;position:static}
+.topssec::after{display:none}
+.full_clear{width:100%}
+.none_boil{display:none}
+.none_boil_full{width:100%;padding:5px 0px;}
+.coleft{width:70%}
+.full_same{width:100%}
+.modifysrch{margin:0;}
+body{overflow-x:hidden}
+.insidecurent .padflt.nonefity{display:none}
+.insidecurent .padflt.widfty{width:50%;text-align:center}
+.insidecurent .sidepricebig{font-size:13px}
+.insidecurent .sidepricebig strong{font-size:12px}
+.segment_seg .width_adjst,
+.ontyp .width_adjst{}
+.segment_seg .allboxflt{border-bottom:1px dashed #ddd}
+.full_smal_forty{width:100%}
+.emailperson{margin-top:10px;}
+.for_hotel_modi .modifysrch{height:43px;margin:0;}
+.for_hotel_modi .modifysrch::after{line-height:42px}
+.smal_udayp{margin-top:0}
+.smal_udayp .insidesame{text-align:center}
+.tonavtorum{width:100%}
+.innerdetspad{padding:0 0 0 10px}
+.butnbigs{margin:10px 0 0}
+.baseli.hedli{display:none}
+.responsive_li li{border-bottom:1px dashed #ddd;padding:5px 0;width:100%!important}
+.res_op{color:#999;display:block;float:left;margin-right:10px}
+.price_cet .wid80{width:auto}
+.price_cet .wid20{float:right;width:auto}
+.bus_sorting.sortul .sortli{width:20%!important}
+.staffareadash{padding:20px 0}
+}
+@media(max-width:480px){.marhtldet .locadres{font-size:14px;}
+}
+@media(max-width:450px){.view_type{width:auto;}
+.normalinput{font-size:14px}
+.placerows .col-xs-6{width:100%}
+.bokinstts .col-xs-3{width:100%}
+.nav-tabs.customteam.customteam2{max-width:none;width:100%}
+.nav-tabs.customteam li{margin:0 5px 0 0;width:auto}
+.tab-content.sidewise_tab{clear:both}
+.yrtogo2,
+.noticemsg2{font-size:14px}
+.yrtogo{font-size:12px;line-height:14px}
+.noticemsg{line-height:20px}
+.spl_box{padding:10px}
+.colusrdash{width:100%;height:auto}
+.useralldets{clear:both}
+.flight_chnge .rot_arrow {
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+.flight_chnge i {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg); }
+}
+@media(max-width:420px){.packgtr{padding:0 !important;}
+.ffty{float:left;width:100%;}
+.chkdate{font-size:14px;}
+.chkin{font-size:15px;}
+.untdate{font-size:15px;}
+.stdnonacltfre{font-size:16px;}
+.amthtlrsstd{font-size:23px;}
+.htlamtnyt{padding-bottom:7px;}
+.stdnonaclt{font-size:15px;}
+.amthtlrs{font-size:32px;}
+.romtypefrecan p{font-size:12px;padding:0 0 0 5px;}
+.romsfst .noof_ave{text-align:left;}
+.rowresult .madgrid{border-right:1px solid #eee;}
+.tmxloader{width:170px;height:170px;margin:20px auto;}
+.prcstrtingt{font-size:14px;font-weight:400;margin:0;}
+.celhtl.width30{padding:0;text-align:center;}
+.mwifdiv{float:none;}
+.tripad{float:none;padding:10px 0 15px;margin:0 auto;text-align:center;}
+.width30{width:100%;}
+.width70{width:100%;}
+.view_type{padding:0 3px;}
+.mapviw.noviews{margin:0;}
+.modifysrch{margin:0;}
+.mobresdv{line-height:26px;}
+.grid .figure{height:250px}
+.figure.effect-marley h3{font-size:18px}
+.sidebtn{position:static}
+.sidebtn .dropdown-menu.exploreul{left:5%;margin:0;position:absolute;right:0;top:100px;width:90%}
+.sidebtn .dropdown-menu.exploreul.mysign::before{right:82px}
+.altpopup{width:96%}
+.round-domestk .wayeght{width:100%}
+.round-domestk .wayfour{}
+.round-domestk .priceanbook{}
+.round-domestk .insidecurent .padflt.nonefity{display:none}
+.round-domestk .padflt.widfty{width:50%}
+.round-domestk .padflt.widfty .timlbl{font-size:12px}
+.insidecurent .sidepricewrp{padding:2px 0}
+.full_smal_forty{width:100%}
+.hoteloctnf{font-size:20px;}
+.sortli.oprtrli{display:none}
+.bus_sorting.sortul .sortli{width:25%!important}
+.infowone{padding:0}
+.alldasbord{padding:10px}
+.nav-tabs.central_tab li a{padding:0 10px}
+}
+@media(max-width:380px){.view_type{padding:0 2px;}
+.romsfst .rombtndv{width:30%;}
+}
+@media(max-width:360px){.view_type{padding:0 3px;}
+.sepmenus{top:60px}
+.section_top,
+.flags{display:none}
+.flag_images{margin:8px 20px 0 0}
+.sidebtn .dropdown-menu.exploreul{top:60px}
+.sidebtn .dropdown-menu.exploreul.mysign::before{right:72px}
+.coleft{width:80%}
+.filterforall.addtwofilter .sorta strong{font-size:9px}
+.selectedwrap::after{font-size:8px;width:18px}
+.starrtinghotl.rating-no{margin:0;position:static}
+.shtlnamehotl{padding-right:0}
+.none_rit{width:100%}
+.fifty_rums{width:100%}
+.canrumpoly{display:none}
+.arowwspr{padding:5px 0}
+.flling_name .col-xs-5,
+.flling_name .col-xs-4,
+.flling_name .col-xs-3{width:100%}
+#show_log .modal-dialog {width: 100%; max-width: 280px; }
+}
+.responsive-tabs-container[class*="accordion-"] .accordion-link{background-color:#595959;border-radius:3px;color:#fff;display:none;float:left;margin-bottom:10px;padding:15px;width:100%}
+@media (max-width:320px){.shtlnamehotl{font-size:14px;}
+.canplyto .fa{display:none;}
+.canplyto{font-size:12px;}
+.preclsdv b{font-size:12px;}
+.hotel_search_results .priceflights{font-size:16px;}
+.hoteloctnf .fa{display:none;}
+.wament{padding:0px 10px;}
+}
+@media (min-width:551px) and (max-width:767px){.bigdate_book{font-size:20px;}
+.biginre_book{font-size:12px;}
+.fuldate_book{padding-top:15px;}
+.lblbk_book{padding:20px 0px 0 0;}
+.tpcontent{padding:0 8px;}
+.tptitle{font-size:16px;margin:0 0px 5px;}
+#tour_search_result .rowresult.col-xs-4{width:33.33% !important;padding:7px 3px !important;}
+#tour_search_result.result_srch_htl{margin:0 -3px;}
+#tour_search_result .rowresult.col-xs-4 .priceflights{font-size:18px;}
+#tour_search_result .rowresult.col-xs-4 .madgrid.forhtlpopover{height:295px;}
+.thumbnail_deal img {height: 200px;}
+.deals_info_subheading h3 {margin: 5px 0px 4px 0px;}
+.sub_news {font-size: 16px;}
+.frtbest1 h2 {font-size: 22px;}
+.allresult.map_open .result_srch_htl .bookallbtn { padding: 2px 8px; }
+.allresult.map_open .result_srch_htl .listfull .shtlnamehotl { font-size: 14px !important;}
+.allresult.map_open .result_srch_htl .listfull .innd { padding: 0px 4px; }
+.hoteloctnf {margin: 0; }
+.hmembr { padding: 15px 15px 0 !important; }
+.lorentt {  padding: 0 15px !important; }
+.propopum {top: 0px !important;width: 94% !important;left: 3% !important;}
+}
+@media (max-width:767px){.fulldetab .nav-tabs.trul > li > a{padding:10px !important}
+.mypacksy label, .mypacksy.rating span.star, .mypacksy.rating-no span.star{vertical-align:middle !important;}
+.tab_htl_detail .responsive-tabs{display:none !important;}
+.responsive-tabs-container.accordion-xs .nav-tabs{display:block;}
+.responsive-tabs-container.accordion-xs .accordion-link{display:none}
+.nav-tabs.tabstab > li span:before{width:25%;left:-14px;}
+.nav-tabs.tabstab > li.active span:before{width:25%;background:#00a9d6;left:-15px;}
+.nav-tabs.tabstab > li.active span:after{width:25%;right:-15px;z-index:10;}
+.figure.effect-marley h3{font-size:22px;}
+.figure.effect-marley h3, .figure.effect-marley p{right:50px;}
+.grid .figure .figcaption{padding:1em;}
+.retmnus .col-xs-4.nopad{width:50%;}
+.farhomecal{margin:0px 0 0 10px;padding:0;line-height:23px;}
+.wament{margin-right:2px;line-height:23px;padding:0 8px;}
+.footer-top__back-to-top{border-left:1px dashed hsla(0,0%,100%,.5);width:50px;}
+.foot_address{max-width:400px;margin:0 auto;}
+.priceflights{font-size:18px;}
+.rowresult.r-r-i .imagehtldis img{height:140px !important;}
+#tour_search_result .rowresult .celhtl.width30{padding:30px 0 0 !important;}
+#tour_search_result .rowresult.col-xs-4 .celhtl.width30{padding:0 !important;}
+.innd{max-height:140px;min-height:140px;padding:7px 0 0 10px;}
+#tour_search_result .innd{max-height:133px;min-height:133px;}
+#tour_search_result .rowresult.col-xs-4 .innd{max-height:130px;min-height:130px;}
+#tour_search_result .innd{padding:2px 0 0 8px;}
+#tour_search_result .r-r-i.col-xs-4 .innd{padding:7px 7px 0px;}
+.imagehtldis{height:140px !important;}
+.sortli.deprtli, .sortli.durli, .sortli.priceli, .sortli.oprtrli, .sortli.arrivli{width:20%;}
+.bus_sorting .sorta .fa{display:none;}
+#tour_search_result .shtlnamehotl{width:100%;font-size:14px;}
+#tour_search_result .h-adr p{margin-bottom:0;}
+#tour_search_result .adreshotle{font-size:12px;padding-bottom:2px;}
+#tour_search_result .sidepricewrp{padding:0 5px;}
+#tour_search_result .h-name{max-height:40px;}
+#tour_search_result .rowresult.col-xs-4 .h-name{max-height:48px;}
+#tour_search_result .starrtinghotl.rating-no{margin-bottom:5px;}
+.nav-tabs.tabstab > li{float:none;margin:0px 5px;width:62px;height:auto;background:none;display:inline-block;}
+.nav-tabs.tabstab > li > a{float:left;line-height:30px;padding:6px 0;text-align:center;width:100%;}
+.sprte.iconcmn{margin:0 auto}
+.tab_border::after {top: 67px;}
+.allformst .nav-tabs.tabstab > li > a label {font-size: 12px;}
+.err_out {width: 100%; max-width: 470px; margin: 0 auto;}
+.detailtab {border-radius: 0;}
+}
+@media (min-width:768px) and (max-width:991px){.responsive-tabs-container.accordion-sm .nav-tabs{display:none}
+.responsive-tabs-container.accordion-sm .accordion-link{display:block}
+.figure.effect-marley h3, .figure.effect-marley p{right:40px;}
+.package_dets_btn{font-size:11px;}
+.frtrit{padding:0;margin-bottom:15px;}
+#tour_search_result .rowresult.col-xs-4 .imagehtldis img, #tour_search_result .imagehtldis{height:148px;}
+#tour_search_result .shtlnamehotl{font-size:15px;width:100%}
+#tour_search_result .rowresult.r-r-i .imagehtldis img{height:159px;}
+#tour_search_result .rowresult.r-r-i.col-xs-4 .imagehtldis img{height:148px;}
+#tour_search_result .innd{min-height:140px;max-height:none;}
+#tour_search_result .rowresult.col-xs-4 .madgrid.forhtlpopover{height:306px;}
+#tour_search_result .rowresult.col-xs-4 .innd.acttbosrch{min-height:127px;}
+.thumbnail_deal img {height: 145px;}
+.deals_info_subheading h3 {margin: 0px 0px 3px 0px;}
+.roomcount::before { right: 45%; }
+.oneroom {min-width: 200px; }
+.roomcount { right: -50%; }
+.frtbest1 h2 {font-size: 27px;}
+}
+@media (min-width:992px) and (max-width:1199px){.responsive-tabs-container.accordion-md .nav-tabs{display:none}
+.responsive-tabs-container.accordion-md .accordion-link{display:block}
+.sub_news{font-size:17px;}
+.hedsprite{font-size:16px;}
+.figure.effect-marley h3, .figure.effect-marley p{right:40px;}
+.slider-feature{width:85px;}
+.lazy.lazy_loader{height:195px;min-height:195px}
+#tour_search_result .rowresult.r-r-i .imagehtldis img{height:151px;}
+#tour_search_result .celhtl.width30{padding:31px 0;}
+#tour_search_result .rowresult.col-xs-4 .madgrid.forhtlpopover{height:306px;}
+#tour_search_result .rowresult.col-xs-4 .imagehtldis img, #tour_search_result .imagehtldis{height:140px;}
+#tour_search_result .shtlnamehotl{font-size:15px;width:100%}
+#tour_search_result .innd{min-height:140px;max-height:none;}
+#tour_search_result .rowresult.col-xs-4 .celhtl.width30{width:60%;padding:0;}
+.thumbnail_deal img {height: 193px;}
+}
+@media (min-width:1200px){.responsive-tabs-container.accordion-lg .nav-tabs{display:none}
+.responsive-tabs-container.accordion-lg .accordion-link{display:block}
+#flight_search_result .wayeght.full_same {width: 80%;}
+#flight_search_result .wayfour.full_same {width: 20%;position: absolute;right: 0;bottom: 60px;}
+/* .allformst .nav-tabs.tabstab > li.deals > a .iconcmn i {color: #ff9800;} */
+}
+@media (max-width:550px){#tour_search_result .innd{max-height:none;min-height:auto;}
+.bookallbtn.plhotltoy{display:none}
+#tour_search_result .rowresult .celhtl.width30{padding:0 !important;}
+#tour_search_result .rowresult .priceflights{text-align:right;}
+#tour_search_result .rowresult.col-xs-4 .priceflights{text-align:left;}
+#tour_search_result .loc_see{font-size:12px;margin-bottom:3px;}
+#tour_search_result .prcstrtingt{font-size:12px;}
+.searcharea .plcetogo.datemark.sidebord {background: none;}
+.fr_mobl { display: none; }
+.loginbox .col-sm-5.nopad, .loginbox .col-sm-7.nopad { width: 100%; float: left !important; display: block !important; }
+}

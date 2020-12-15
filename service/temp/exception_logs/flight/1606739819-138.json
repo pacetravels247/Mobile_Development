@@ -1,0 +1,1 @@
+{"SOAP-ENV:Envelope":{"SOAP-ENV:Body":{"SOAP-ENV:Fault":{"SOAP-ENV:faultcode":"500","SOAP-ENV:faultstring":"EntGWConnectServlet:4c4ca233176172ddae52a4e - Internal Error: nullnull","SOAP-ENV:faultactor":"","SOAP-ENV:detail":"EntGWConnectServlet:4c4ca233176172ddae52a4e - Internal Error: nullnull"}}}}

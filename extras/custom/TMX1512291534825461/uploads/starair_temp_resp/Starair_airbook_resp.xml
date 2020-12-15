@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soap:Body>
+    <AirBookResponse xmlns="http://zapways.com/air/ota/">
+      <AirBookResult xmlns="http://www.opentravel.org/OTA/2003/05" Version="1.04">
+        <Success/>
+        <AirReservation>
+          <AirItinerary>
+            <OriginDestinationOptions>
+              <OriginDestinationOption RefNumber="B1" RPH="B1">
+                <FlightSegment DepartureDateTime="2019-09-13T07:35:00" ArrivalDateTime="2019-09-13T08:40:00" StopQuantity="0" RPH="1" FlightNumber="105" Status="ONTIME">
+                  <DepartureAirport LocationCode="BLR" Terminal=""/>
+                  <ArrivalAirport LocationCode="IXG" Terminal=""/>
+                  <OperatingAirline Code="OG"/>
+                  <Equipment AirEquipType="E145"/>
+                  <MarketingAirline Code="OG"/>
+                </FlightSegment>
+              </OriginDestinationOption>
+            </OriginDestinationOptions>
+          </AirItinerary>
+          <PriceInfo>
+            <ItinTotalFare>
+              <TotalFare CurrencyCode="INR" Amount="5450"/>
+            </ItinTotalFare>
+            <PTC_FareBreakdowns>
+              <PTC_FareBreakdown>
+                <PassengerTypeQuantity Code="ADT" Quantity="1"/>
+                <FareBasisCodes>
+                  <FareBasisCode FlightSegmentRPH="1">BSRAGT1</FareBasisCode>
+                </FareBasisCodes>
+                <PassengerFare>
+                  <BaseFare CurrencyCode="INR" Amount="2243"/>
+                  <Taxes Amount="432">
+                    <Tax TaxCode="GT" CurrencyCode="INR" Amount="115" TaxName="GST" RPH="TX/GT"/>
+                    <Tax TaxCode="IN" CurrencyCode="INR" Amount="153" TaxName="Passenger Service Charge" RPH="FE/IN"/>
+                    <Tax TaxCode="UD" CurrencyCode="INR" Amount="164" TaxName="UDF" RPH="FE/UD"/>
+                  </Taxes>
+                  <Fees CurrencyCode="INR" Amount="50">
+                    <Fee FeeCode="TR" CurrencyCode="INR" Amount="50" RPH="SC/TR"/>
+                  </Fees>
+                  <FareConstruction OriginCityCode="BLR" DestinationCityCode="IXG"/>
+                </PassengerFare>
+                <TravelerRefNumber RPH="CCBSJbZ8Gj+FnrQ5ZitIkg=="/>
+                <FareInfo CurrencyCode="INR" RuleNumber="0006">
+                  <FareReference ResBookDesigCode="B">BSRAGT1</FareReference>
+                  <RuleInfo>
+                    <ChargesRules/>
+                  </RuleInfo>
+                  <PassengerFare>
+                    <FareBaggageAllowance UnitOfMeasureQuantity="15" UnitOfMeasure="KGS" FlightSegmentRPH="1"/>
+                  </PassengerFare>
+                </FareInfo>
+              </PTC_FareBreakdown>
+              <PTC_FareBreakdown>
+                <PassengerTypeQuantity Code="ADT" Quantity="1"/>
+                <FareBasisCodes>
+                  <FareBasisCode FlightSegmentRPH="1">BSRAGT1</FareBasisCode>
+                </FareBasisCodes>
+                <PassengerFare>
+                  <BaseFare CurrencyCode="INR" Amount="2243"/>
+                  <Taxes Amount="432">
+                    <Tax TaxCode="GT" CurrencyCode="INR" Amount="115" TaxName="GST" RPH="TX/GT"/>
+                    <Tax TaxCode="IN" CurrencyCode="INR" Amount="153" TaxName="Passenger Service Charge" RPH="FE/IN"/>
+                    <Tax TaxCode="UD" CurrencyCode="INR" Amount="164" TaxName="UDF" RPH="FE/UD"/>
+                  </Taxes>
+                  <Fees CurrencyCode="INR" Amount="50">
+                    <Fee FeeCode="TR" CurrencyCode="INR" Amount="50" RPH="SC/TR"/>
+                  </Fees>
+                  <FareConstruction OriginCityCode="BLR" DestinationCityCode="IXG"/>
+                </PassengerFare>
+                <TravelerRefNumber RPH="CCBSJbZ8Gj9p/onCtYaQPg=="/>
+                <FareInfo CurrencyCode="INR" RuleNumber="0006">
+                  <FareReference ResBookDesigCode="B">BSRAGT1</FareReference>
+                  <RuleInfo>
+                    <ChargesRules/>
+                  </RuleInfo>
+                  <PassengerFare>
+                    <FareBaggageAllowance UnitOfMeasureQuantity="15" UnitOfMeasure="KGS" FlightSegmentRPH="1"/>
+                  </PassengerFare>
+                </FareInfo>
+              </PTC_FareBreakdown>
+            </PTC_FareBreakdowns>
+          </PriceInfo>
+          <TravelerInfo>
+            <AirTraveler PassengerTypeCode="ADT">
+              <PersonName>
+                <GivenName>TESTA</GivenName>
+                <Surname>TEST</Surname>
+                <NameTitle>MR</NameTitle>
+              </PersonName>
+              <Email>shrikant@pacetravels.in</Email>
+              <PassengerTypeQuantity Code="ADT" Quantity="1"/>
+              <TravelerRefNumber RPH="CCBSJbZ8Gj+FnrQ5ZitIkg=="/>
+              <FlightSegmentRPHs>
+                <FlightSegmentRPH>1</FlightSegmentRPH>
+              </FlightSegmentRPHs>
+            </AirTraveler>
+            <AirTraveler PassengerTypeCode="ADT">
+              <PersonName>
+                <GivenName>TESTB</GivenName>
+                <Surname>TEST</Surname>
+                <NameTitle>MS</NameTitle>
+              </PersonName>
+              <Email>shrikant@pacetravels.in</Email>
+              <PassengerTypeQuantity Code="ADT" Quantity="1"/>
+              <TravelerRefNumber RPH="CCBSJbZ8Gj9p/onCtYaQPg=="/>
+              <FlightSegmentRPHs>
+                <FlightSegmentRPH>1</FlightSegmentRPH>
+              </FlightSegmentRPHs>
+            </AirTraveler>
+          </TravelerInfo>
+          <Ticketing TicketTimeLimit="2019-07-08T17:42:08" TicketingStatus="OK" FlightSegmentRefNumber="1" TravelerRefNumber="CCBSJbZ8Gj+FnrQ5ZitIkg==" TimeLimitMinutes="-15" PassengerTypeCode="ADT">
+            <TicketingVendor Code="OG"/>
+          </Ticketing>
+          <Ticketing TicketTimeLimit="2019-07-08T17:42:08" TicketingStatus="OK" FlightSegmentRefNumber="1" TravelerRefNumber="CCBSJbZ8Gj9p/onCtYaQPg==" TimeLimitMinutes="-15" PassengerTypeCode="ADT">
+            <TicketingVendor Code="OG"/>
+          </Ticketing>
+          <BookingReferenceID Instance="OG0757530624" ID="JHJWJM"/>
+          <BookingReferenceID Type="14" Instance="OG0757530624" ID="JHJWJM"/>
+        </AirReservation>
+      </AirBookResult>
+    </AirBookResponse>
+  </soap:Body>
+</soap:Envelope>

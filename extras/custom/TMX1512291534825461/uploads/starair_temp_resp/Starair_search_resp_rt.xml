@@ -1,0 +1,1262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soap:Body>
+    <AirLowFareSearchResponse xmlns="http://zapways.com/air/ota/">
+      <AirLowFareSearchResult xmlns="http://www.opentravel.org/OTA/2003/05" Version="1.04">
+        <Success/>
+        <Warnings>
+          <Warning Type="11" ShortText="Route Unavailable" Code="172" Status="NotPossible">Fare(s) requested are not available from Tirupati to Bangalore on the date(s) selected.</Warning>
+          <Warning Type="11" ShortText="Route Unavailable" Code="172" Status="NotPossible">Route(s) are not available from Tirupati to Bangalore on the date(s) selected.</Warning>
+        </Warnings>
+        <PricedItineraries>
+          <PricedItinerary>
+            <AirItinerary>
+              <OriginDestinationOptions>
+                <OriginDestinationOption>
+                  <FlightSegment DepartureDateTime="2019-08-15T16:50:00" ArrivalDateTime="2019-08-15T17:55:00" StopQuantity="0" RPH="0-0-0-0" FlightNumber="103" Status="ONTIME">
+                    <DepartureAirport LocationCode="HBX"/>
+                    <ArrivalAirport LocationCode="TIR"/>
+                    <OperatingAirline Code="OG"/>
+                    <Equipment AirEquipType="E145"/>
+                    <MarketingAirline Code="OG"/>
+                    <BookingClassAvails CabinType="Y">
+                      <BookingClassAvail ResBookDesigCode="B" ResBookDesigStatusCode="1" RPH="Y"/>
+                      <BookingClassAvail ResBookDesigCode="C" ResBookDesigStatusCode="1" RPH="Y"/>
+                    </BookingClassAvails>
+                  </FlightSegment>
+                </OriginDestinationOption>
+              </OriginDestinationOptions>
+            </AirItinerary>
+            <AirItineraryPricingInfo>
+              <PTC_FareBreakdowns>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="ADT" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="0-0-0-0">BRTAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="2562"/>
+                    <Taxes Amount="128">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="128"/>
+                    </Taxes>
+                    <TotalFare CurrencyCode="INR" Amount="2690"/>
+                    <FareConstruction OriginCityCode="HBX" DestinationCityCode="TIR"/>
+                    <FareBaggageAllowance UnitOfMeasureQuantity="15" UnitOfMeasure="KGS" FlightSegmentRPH="0-0-0-0"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="B"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="BRTAGT1">
+                      <Fare BaseAmount="2562" TaxAmount="128" TotalFare="2690"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="CHD" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="0-0-0-0">BRTAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="2562"/>
+                    <Taxes Amount="128">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="128"/>
+                    </Taxes>
+                    <TotalFare CurrencyCode="INR" Amount="2690"/>
+                    <FareConstruction OriginCityCode="HBX" DestinationCityCode="TIR"/>
+                    <FareBaggageAllowance UnitOfMeasureQuantity="15" UnitOfMeasure="KGS" FlightSegmentRPH="0-0-0-0"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="B"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="BRTAGT1">
+                      <Fare BaseAmount="2562" TaxAmount="128" TotalFare="2690"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="INF" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="0-0-0-0">INFANTRTAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="1297"/>
+                    <Taxes Amount="65">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="65"/>
+                    </Taxes>
+                    <TotalFare CurrencyCode="INR" Amount="1362"/>
+                    <FareConstruction OriginCityCode="HBX" DestinationCityCode="TIR"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="B"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="INFANTRTAGT1">
+                      <Fare BaseAmount="1297" TaxAmount="65" TotalFare="1362"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="ADT" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="0-0-0-0">CSCAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="3548"/>
+                    <Taxes Amount="177">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="177"/>
+                    </Taxes>
+                    <TotalFare CurrencyCode="INR" Amount="3725"/>
+                    <FareConstruction OriginCityCode="HBX" DestinationCityCode="TIR"/>
+                    <FareBaggageAllowance UnitOfMeasureQuantity="15" UnitOfMeasure="KGS" FlightSegmentRPH="0-0-0-0"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="C"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="CSCAGT1">
+                      <Fare BaseAmount="3548" TaxAmount="177" TotalFare="3725"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="CHD" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="0-0-0-0">CSCAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="3548"/>
+                    <Taxes Amount="177">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="177"/>
+                    </Taxes>
+                    <TotalFare CurrencyCode="INR" Amount="3725"/>
+                    <FareConstruction OriginCityCode="HBX" DestinationCityCode="TIR"/>
+                    <FareBaggageAllowance UnitOfMeasureQuantity="15" UnitOfMeasure="KGS" FlightSegmentRPH="0-0-0-0"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="C"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="CSCAGT1">
+                      <Fare BaseAmount="3548" TaxAmount="177" TotalFare="3725"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="INF" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="0-0-0-0">INFSCAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="1232"/>
+                    <Taxes Amount="62">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="62"/>
+                    </Taxes>
+                    <TotalFare CurrencyCode="INR" Amount="1294"/>
+                    <FareConstruction OriginCityCode="HBX" DestinationCityCode="TIR"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="C"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="INFSCAGT1">
+                      <Fare BaseAmount="1232" TaxAmount="62" TotalFare="1294"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="ADT" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="0-0-0-0">CSFAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="3646"/>
+                    <Taxes Amount="182">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="182"/>
+                    </Taxes>
+                    <TotalFare CurrencyCode="INR" Amount="3828"/>
+                    <FareConstruction OriginCityCode="HBX" DestinationCityCode="TIR"/>
+                    <FareBaggageAllowance UnitOfMeasureQuantity="15" UnitOfMeasure="KGS" FlightSegmentRPH="0-0-0-0"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="C"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty ExchangeCount="&lt;=0" HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="0"/>
+                          <Penalty ExchangeCount="&gt;=1" HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="CSFAGT1">
+                      <Fare BaseAmount="3646" TaxAmount="182" TotalFare="3828"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="CHD" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="0-0-0-0">CSFAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="3646"/>
+                    <Taxes Amount="182">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="182"/>
+                    </Taxes>
+                    <TotalFare CurrencyCode="INR" Amount="3828"/>
+                    <FareConstruction OriginCityCode="HBX" DestinationCityCode="TIR"/>
+                    <FareBaggageAllowance UnitOfMeasureQuantity="15" UnitOfMeasure="KGS" FlightSegmentRPH="0-0-0-0"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="C"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty ExchangeCount="&lt;=0" HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="0"/>
+                          <Penalty ExchangeCount="&gt;=1" HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="CSFAGT1">
+                      <Fare BaseAmount="3646" TaxAmount="182" TotalFare="3828"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="INF" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="0-0-0-0">INFSFAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="1232"/>
+                    <Taxes Amount="62">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="62"/>
+                    </Taxes>
+                    <TotalFare CurrencyCode="INR" Amount="1294"/>
+                    <FareConstruction OriginCityCode="HBX" DestinationCityCode="TIR"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="C"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty ExchangeCount="&lt;=0" HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="0"/>
+                          <Penalty ExchangeCount="&gt;=1" HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="INFSFAGT1">
+                      <Fare BaseAmount="1232" TaxAmount="62" TotalFare="1294"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+              </PTC_FareBreakdowns>
+            </AirItineraryPricingInfo>
+          </PricedItinerary>
+          <PricedItinerary>
+            <AirItinerary>
+              <OriginDestinationOptions>
+                <OriginDestinationOption>
+                  <FlightSegment DepartureDateTime="2019-08-17T18:15:00" ArrivalDateTime="2019-08-17T19:20:00" StopQuantity="0" RPH="1-0-0-0" FlightNumber="104" Status="ONTIME">
+                    <DepartureAirport LocationCode="TIR"/>
+                    <ArrivalAirport LocationCode="HBX"/>
+                    <OperatingAirline Code="OG"/>
+                    <Equipment AirEquipType="E145"/>
+                    <MarketingAirline Code="OG"/>
+                    <BookingClassAvails CabinType="Y">
+                      <BookingClassAvail ResBookDesigCode="R" ResBookDesigStatusCode="1" RPH="Y"/>
+                      <BookingClassAvail ResBookDesigCode="C" ResBookDesigStatusCode="1" RPH="Y"/>
+                    </BookingClassAvails>
+                  </FlightSegment>
+                </OriginDestinationOption>
+              </OriginDestinationOptions>
+            </AirItinerary>
+            <AirItineraryPricingInfo>
+              <PTC_FareBreakdowns>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="ADT" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="1-0-0-0">RRTAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="2790"/>
+                    <Taxes Amount="140">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="140"/>
+                    </Taxes>
+                    <TotalFare CurrencyCode="INR" Amount="2930"/>
+                    <FareConstruction OriginCityCode="TIR" DestinationCityCode="HBX"/>
+                    <FareBaggageAllowance UnitOfMeasureQuantity="15" UnitOfMeasure="KGS" FlightSegmentRPH="1-0-0-0"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="R"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="RRTAGT1">
+                      <Fare BaseAmount="2790" TaxAmount="140" TotalFare="2930"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="CHD" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="1-0-0-0">RRTAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="2790"/>
+                    <Taxes Amount="140">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="140"/>
+                    </Taxes>
+                    <TotalFare CurrencyCode="INR" Amount="2930"/>
+                    <FareConstruction OriginCityCode="TIR" DestinationCityCode="HBX"/>
+                    <FareBaggageAllowance UnitOfMeasureQuantity="15" UnitOfMeasure="KGS" FlightSegmentRPH="1-0-0-0"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="R"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="RRTAGT1">
+                      <Fare BaseAmount="2790" TaxAmount="140" TotalFare="2930"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="INF" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="1-0-0-0">INFANTRTAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="1297"/>
+                    <Taxes Amount="65">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="65"/>
+                    </Taxes>
+                    <TotalFare CurrencyCode="INR" Amount="1362"/>
+                    <FareConstruction OriginCityCode="TIR" DestinationCityCode="HBX"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="R"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="INFANTRTAGT1">
+                      <Fare BaseAmount="1297" TaxAmount="65" TotalFare="1362"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="ADT" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="1-0-0-0">CSCAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="3548"/>
+                    <Taxes Amount="177">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="177"/>
+                    </Taxes>
+                    <TotalFare CurrencyCode="INR" Amount="3725"/>
+                    <FareConstruction OriginCityCode="TIR" DestinationCityCode="HBX"/>
+                    <FareBaggageAllowance UnitOfMeasureQuantity="15" UnitOfMeasure="KGS" FlightSegmentRPH="1-0-0-0"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="C"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="CSCAGT1">
+                      <Fare BaseAmount="3548" TaxAmount="177" TotalFare="3725"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="CHD" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="1-0-0-0">CSCAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="3548"/>
+                    <Taxes Amount="177">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="177"/>
+                    </Taxes>
+                    <TotalFare CurrencyCode="INR" Amount="3725"/>
+                    <FareConstruction OriginCityCode="TIR" DestinationCityCode="HBX"/>
+                    <FareBaggageAllowance UnitOfMeasureQuantity="15" UnitOfMeasure="KGS" FlightSegmentRPH="1-0-0-0"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="C"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="CSCAGT1">
+                      <Fare BaseAmount="3548" TaxAmount="177" TotalFare="3725"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="INF" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="1-0-0-0">INFSCAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="1232"/>
+                    <Taxes Amount="62">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="62"/>
+                    </Taxes>
+                    <TotalFare CurrencyCode="INR" Amount="1294"/>
+                    <FareConstruction OriginCityCode="TIR" DestinationCityCode="HBX"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="C"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="INFSCAGT1">
+                      <Fare BaseAmount="1232" TaxAmount="62" TotalFare="1294"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="ADT" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="1-0-0-0">CSFAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="3646"/>
+                    <Taxes Amount="182">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="182"/>
+                    </Taxes>
+                    <TotalFare CurrencyCode="INR" Amount="3828"/>
+                    <FareConstruction OriginCityCode="TIR" DestinationCityCode="HBX"/>
+                    <FareBaggageAllowance UnitOfMeasureQuantity="15" UnitOfMeasure="KGS" FlightSegmentRPH="1-0-0-0"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="C"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty ExchangeCount="&lt;=0" HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="0"/>
+                          <Penalty ExchangeCount="&gt;=1" HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="CSFAGT1">
+                      <Fare BaseAmount="3646" TaxAmount="182" TotalFare="3828"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="CHD" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="1-0-0-0">CSFAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="3646"/>
+                    <Taxes Amount="182">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="182"/>
+                    </Taxes>
+                    <TotalFare CurrencyCode="INR" Amount="3828"/>
+                    <FareConstruction OriginCityCode="TIR" DestinationCityCode="HBX"/>
+                    <FareBaggageAllowance UnitOfMeasureQuantity="15" UnitOfMeasure="KGS" FlightSegmentRPH="1-0-0-0"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="C"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty ExchangeCount="&lt;=0" HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="0"/>
+                          <Penalty ExchangeCount="&gt;=1" HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="CSFAGT1">
+                      <Fare BaseAmount="3646" TaxAmount="182" TotalFare="3828"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="INF" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="1-0-0-0">INFSFAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="1232"/>
+                    <Taxes Amount="62">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="62"/>
+                    </Taxes>
+                    <TotalFare CurrencyCode="INR" Amount="1294"/>
+                    <FareConstruction OriginCityCode="TIR" DestinationCityCode="HBX"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="C"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty ExchangeCount="&lt;=0" HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="0"/>
+                          <Penalty ExchangeCount="&gt;=1" HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="INFSFAGT1">
+                      <Fare BaseAmount="1232" TaxAmount="62" TotalFare="1294"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+              </PTC_FareBreakdowns>
+            </AirItineraryPricingInfo>
+          </PricedItinerary>
+        </PricedItineraries>
+        <PricedItineraries>
+          <PricedItinerary>
+            <AirItinerary>
+              <OriginDestinationOptions>
+                <OriginDestinationOption>
+                  <FlightSegment DepartureDateTime="2019-08-15T16:50:00" ArrivalDateTime="2019-08-15T17:55:00" StopQuantity="0" RPH="0-0-0-0" FlightNumber="103" Status="ONTIME">
+                    <DepartureAirport LocationCode="HBX"/>
+                    <ArrivalAirport LocationCode="TIR"/>
+                    <OperatingAirline Code="OG"/>
+                    <Equipment AirEquipType="E145"/>
+                    <MarketingAirline Code="OG"/>
+                    <BookingClassAvails CabinType="Y">
+                      <BookingClassAvail ResBookDesigCode="B" ResBookDesigStatusCode="1" RPH="Y"/>
+                      <BookingClassAvail ResBookDesigCode="C" ResBookDesigStatusCode="1" RPH="Y"/>
+                    </BookingClassAvails>
+                  </FlightSegment>
+                </OriginDestinationOption>
+              </OriginDestinationOptions>
+            </AirItinerary>
+            <AirItineraryPricingInfo>
+              <PTC_FareBreakdowns>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="ADT" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="0-0-0-0">BRTAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="2562"/>
+                    <Taxes Amount="128">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="128"/>
+                    </Taxes>
+                    <TotalFare CurrencyCode="INR" Amount="2690"/>
+                    <FareConstruction OriginCityCode="HBX" DestinationCityCode="TIR"/>
+                    <FareBaggageAllowance UnitOfMeasureQuantity="15" UnitOfMeasure="KGS" FlightSegmentRPH="0-0-0-0"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="B"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="BRTAGT1">
+                      <Fare BaseAmount="2562" TaxAmount="128" TotalFare="2690"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="CHD" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="0-0-0-0">BRTAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="2562"/>
+                    <Taxes Amount="128">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="128"/>
+                    </Taxes>
+                    <TotalFare CurrencyCode="INR" Amount="2690"/>
+                    <FareConstruction OriginCityCode="HBX" DestinationCityCode="TIR"/>
+                    <FareBaggageAllowance UnitOfMeasureQuantity="15" UnitOfMeasure="KGS" FlightSegmentRPH="0-0-0-0"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="B"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="BRTAGT1">
+                      <Fare BaseAmount="2562" TaxAmount="128" TotalFare="2690"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="INF" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="0-0-0-0">INFANTRTAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="1297"/>
+                    <Taxes Amount="65">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="65"/>
+                    </Taxes>
+                    <TotalFare CurrencyCode="INR" Amount="1362"/>
+                    <FareConstruction OriginCityCode="HBX" DestinationCityCode="TIR"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="B"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="INFANTRTAGT1">
+                      <Fare BaseAmount="1297" TaxAmount="65" TotalFare="1362"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="ADT" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="0-0-0-0">CSCAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="3548"/>
+                    <Taxes Amount="177">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="177"/>
+                    </Taxes>
+                    <TotalFare CurrencyCode="INR" Amount="3725"/>
+                    <FareConstruction OriginCityCode="HBX" DestinationCityCode="TIR"/>
+                    <FareBaggageAllowance UnitOfMeasureQuantity="15" UnitOfMeasure="KGS" FlightSegmentRPH="0-0-0-0"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="C"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="CSCAGT1">
+                      <Fare BaseAmount="3548" TaxAmount="177" TotalFare="3725"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="CHD" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="0-0-0-0">CSCAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="3548"/>
+                    <Taxes Amount="177">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="177"/>
+                    </Taxes>
+                    <TotalFare CurrencyCode="INR" Amount="3725"/>
+                    <FareConstruction OriginCityCode="HBX" DestinationCityCode="TIR"/>
+                    <FareBaggageAllowance UnitOfMeasureQuantity="15" UnitOfMeasure="KGS" FlightSegmentRPH="0-0-0-0"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="C"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="CSCAGT1">
+                      <Fare BaseAmount="3548" TaxAmount="177" TotalFare="3725"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="INF" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="0-0-0-0">INFSCAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="1232"/>
+                    <Taxes Amount="62">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="62"/>
+                    </Taxes>
+                    <TotalFare CurrencyCode="INR" Amount="1294"/>
+                    <FareConstruction OriginCityCode="HBX" DestinationCityCode="TIR"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="C"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="INFSCAGT1">
+                      <Fare BaseAmount="1232" TaxAmount="62" TotalFare="1294"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="ADT" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="0-0-0-0">CSFAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="3646"/>
+                    <Taxes Amount="182">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="182"/>
+                    </Taxes>
+                    <TotalFare CurrencyCode="INR" Amount="3828"/>
+                    <FareConstruction OriginCityCode="HBX" DestinationCityCode="TIR"/>
+                    <FareBaggageAllowance UnitOfMeasureQuantity="15" UnitOfMeasure="KGS" FlightSegmentRPH="0-0-0-0"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="C"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty ExchangeCount="&lt;=0" HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="0"/>
+                          <Penalty ExchangeCount="&gt;=1" HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="CSFAGT1">
+                      <Fare BaseAmount="3646" TaxAmount="182" TotalFare="3828"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="CHD" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="0-0-0-0">CSFAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="3646"/>
+                    <Taxes Amount="182">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="182"/>
+                    </Taxes>
+                    <TotalFare CurrencyCode="INR" Amount="3828"/>
+                    <FareConstruction OriginCityCode="HBX" DestinationCityCode="TIR"/>
+                    <FareBaggageAllowance UnitOfMeasureQuantity="15" UnitOfMeasure="KGS" FlightSegmentRPH="0-0-0-0"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="C"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty ExchangeCount="&lt;=0" HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="0"/>
+                          <Penalty ExchangeCount="&gt;=1" HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="CSFAGT1">
+                      <Fare BaseAmount="3646" TaxAmount="182" TotalFare="3828"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="INF" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="0-0-0-0">INFSFAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="1232"/>
+                    <Taxes Amount="62">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="62"/>
+                    </Taxes>
+                    <TotalFare CurrencyCode="INR" Amount="1294"/>
+                    <FareConstruction OriginCityCode="HBX" DestinationCityCode="TIR"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="C"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty ExchangeCount="&lt;=0" HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="0"/>
+                          <Penalty ExchangeCount="&gt;=1" HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="INFSFAGT1">
+                      <Fare BaseAmount="1232" TaxAmount="62" TotalFare="1294"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+              </PTC_FareBreakdowns>
+            </AirItineraryPricingInfo>
+          </PricedItinerary>
+          <PricedItinerary>
+            <AirItinerary>
+              <OriginDestinationOptions>
+                <OriginDestinationOption>
+                  <FlightSegment DepartureDateTime="2019-08-17T18:15:00" ArrivalDateTime="2019-08-17T19:20:00" StopQuantity="0" RPH="1-0-0-0" FlightNumber="104" Status="ONTIME">
+                    <DepartureAirport LocationCode="TIR"/>
+                    <ArrivalAirport LocationCode="HBX"/>
+                    <OperatingAirline Code="OG"/>
+                    <Equipment AirEquipType="E145"/>
+                    <MarketingAirline Code="OG"/>
+                    <BookingClassAvails CabinType="Y">
+                      <BookingClassAvail ResBookDesigCode="R" ResBookDesigStatusCode="1" RPH="Y"/>
+                      <BookingClassAvail ResBookDesigCode="C" ResBookDesigStatusCode="1" RPH="Y"/>
+                    </BookingClassAvails>
+                  </FlightSegment>
+                </OriginDestinationOption>
+              </OriginDestinationOptions>
+            </AirItinerary>
+            <AirItineraryPricingInfo>
+              <PTC_FareBreakdowns>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="ADT" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="1-0-0-0">RRTAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="2790"/>
+                    <Taxes Amount="140">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="140"/>
+                    </Taxes>
+                    <TotalFare CurrencyCode="INR" Amount="2930"/>
+                    <FareConstruction OriginCityCode="TIR" DestinationCityCode="HBX"/>
+                    <FareBaggageAllowance UnitOfMeasureQuantity="15" UnitOfMeasure="KGS" FlightSegmentRPH="1-0-0-0"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="R"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="RRTAGT1">
+                      <Fare BaseAmount="2790" TaxAmount="140" TotalFare="2930"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="CHD" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="1-0-0-0">RRTAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="2790"/>
+                    <Taxes Amount="140">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="140"/>
+                    </Taxes>
+                    <TotalFare CurrencyCode="INR" Amount="2930"/>
+                    <FareConstruction OriginCityCode="TIR" DestinationCityCode="HBX"/>
+                    <FareBaggageAllowance UnitOfMeasureQuantity="15" UnitOfMeasure="KGS" FlightSegmentRPH="1-0-0-0"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="R"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="RRTAGT1">
+                      <Fare BaseAmount="2790" TaxAmount="140" TotalFare="2930"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="INF" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="1-0-0-0">INFANTRTAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="1297"/>
+                    <Taxes Amount="65">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="65"/>
+                    </Taxes>
+                    <TotalFare CurrencyCode="INR" Amount="1362"/>
+                    <FareConstruction OriginCityCode="TIR" DestinationCityCode="HBX"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="R"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="INFANTRTAGT1">
+                      <Fare BaseAmount="1297" TaxAmount="65" TotalFare="1362"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="ADT" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="1-0-0-0">CSCAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="3548"/>
+                    <Taxes Amount="177">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="177"/>
+                    </Taxes>
+                    <TotalFare CurrencyCode="INR" Amount="3725"/>
+                    <FareConstruction OriginCityCode="TIR" DestinationCityCode="HBX"/>
+                    <FareBaggageAllowance UnitOfMeasureQuantity="15" UnitOfMeasure="KGS" FlightSegmentRPH="1-0-0-0"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="C"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="CSCAGT1">
+                      <Fare BaseAmount="3548" TaxAmount="177" TotalFare="3725"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="CHD" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="1-0-0-0">CSCAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="3548"/>
+                    <Taxes Amount="177">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="177"/>
+                    </Taxes>
+                    <TotalFare CurrencyCode="INR" Amount="3725"/>
+                    <FareConstruction OriginCityCode="TIR" DestinationCityCode="HBX"/>
+                    <FareBaggageAllowance UnitOfMeasureQuantity="15" UnitOfMeasure="KGS" FlightSegmentRPH="1-0-0-0"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="C"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="CSCAGT1">
+                      <Fare BaseAmount="3548" TaxAmount="177" TotalFare="3725"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="INF" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="1-0-0-0">INFSCAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="1232"/>
+                    <Taxes Amount="62">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="62"/>
+                    </Taxes>
+                    <TotalFare CurrencyCode="INR" Amount="1294"/>
+                    <FareConstruction OriginCityCode="TIR" DestinationCityCode="HBX"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="C"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="INFSCAGT1">
+                      <Fare BaseAmount="1232" TaxAmount="62" TotalFare="1294"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="ADT" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="1-0-0-0">CSFAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="3646"/>
+                    <Taxes Amount="182">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="182"/>
+                    </Taxes>
+                    <TotalFare CurrencyCode="INR" Amount="3828"/>
+                    <FareConstruction OriginCityCode="TIR" DestinationCityCode="HBX"/>
+                    <FareBaggageAllowance UnitOfMeasureQuantity="15" UnitOfMeasure="KGS" FlightSegmentRPH="1-0-0-0"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="C"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty ExchangeCount="&lt;=0" HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="0"/>
+                          <Penalty ExchangeCount="&gt;=1" HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="CSFAGT1">
+                      <Fare BaseAmount="3646" TaxAmount="182" TotalFare="3828"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="CHD" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="1-0-0-0">CSFAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="3646"/>
+                    <Taxes Amount="182">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="182"/>
+                    </Taxes>
+                    <TotalFare CurrencyCode="INR" Amount="3828"/>
+                    <FareConstruction OriginCityCode="TIR" DestinationCityCode="HBX"/>
+                    <FareBaggageAllowance UnitOfMeasureQuantity="15" UnitOfMeasure="KGS" FlightSegmentRPH="1-0-0-0"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="C"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty ExchangeCount="&lt;=0" HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="0"/>
+                          <Penalty ExchangeCount="&gt;=1" HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="CSFAGT1">
+                      <Fare BaseAmount="3646" TaxAmount="182" TotalFare="3828"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+                <PTC_FareBreakdown>
+                  <PassengerTypeQuantity Code="INF" Quantity="1"/>
+                  <FareBasisCodes>
+                    <FareBasisCode FlightSegmentRPH="1-0-0-0">INFSFAGT1</FareBasisCode>
+                  </FareBasisCodes>
+                  <PassengerFare>
+                    <BaseFare CurrencyCode="INR" Amount="1232"/>
+                    <Taxes Amount="62">
+                      <Tax TaxCode="GT" CurrencyCode="INR" Amount="62"/>
+                    </Taxes>
+                    <TotalFare CurrencyCode="INR" Amount="1294"/>
+                    <FareConstruction OriginCityCode="TIR" DestinationCityCode="HBX"/>
+                  </PassengerFare>
+                  <FareInfo CurrencyCode="INR">
+                    <FareReference ResBookDesigCode="C"/>
+                    <RuleInfo>
+                      <ChargesRules>
+                        <VoluntaryChanges>
+                          <Penalty ExchangeCount="&lt;=0" HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="0"/>
+                          <Penalty ExchangeCount="&gt;=1" HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2000"/>
+                        </VoluntaryChanges>
+                        <VoluntaryRefunds>
+                          <Penalty HoursBeforeDeparture="&lt;2" Percent="100"/>
+                          <Penalty HoursBeforeDeparture="&gt;2" CurrencyCode="INR" Amount="2500"/>
+                        </VoluntaryRefunds>
+                      </ChargesRules>
+                    </RuleInfo>
+                    <FareInfo FareBasisCode="INFSFAGT1">
+                      <Fare BaseAmount="1232" TaxAmount="62" TotalFare="1294"/>
+                    </FareInfo>
+                  </FareInfo>
+                </PTC_FareBreakdown>
+              </PTC_FareBreakdowns>
+            </AirItineraryPricingInfo>
+          </PricedItinerary>
+        </PricedItineraries>
+      </AirLowFareSearchResult>
+    </AirLowFareSearchResponse>
+  </soap:Body>
+</soap:Envelope>
